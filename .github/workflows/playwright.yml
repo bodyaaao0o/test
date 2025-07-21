@@ -35,7 +35,6 @@ jobs:
 
       - name: Run Playwright tests in Chromium and save output
         id: run_tests
-        continue-on-error: true
         run: |
           npx playwright test --project=chromium > result.log 2>&1
           echo "exit_code=$?" >> $GITHUB_OUTPUT
@@ -45,7 +44,7 @@ jobs:
         run: |
           ERROR=$(tail -n 20 result.log | jq -Rs .)
           curl -X POST -H 'Content-type: application/json' \
-            --data "{\"text\":\"🚨 Playwright tests failed on *staging*:\n${ERROR}\"}" \
+            --data "{\"text\":\" Playwright tests failed on *staging*:\n${ERROR}\"}" \
             ${{ secrets.SLACK_WEBHOOK_URL }}
 
         
