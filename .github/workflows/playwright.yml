@@ -33,15 +33,20 @@ jobs:
       - name: Clear Playwright test results
         run: rm -rf test-results
 
-      - name: Run Playwright tests in Chromium
-        run: npx playwright test --project=chromium
-        
-      - name: Send Slack notification on test failure
-        if: failure()  # тільки коли тести фейляться
+      - name: Run Playwright tests in Chromium and save output
+        id: run_tests
         run: |
+          set +e
+          npx playwright test --project=chromium > result.log 2>&1
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+
+      - name: Send Slack notification on test failure
+        if: steps.run_tests.outputs.exit_code != '0'
+        run: |
+          ERROR=$(tail -n 20 result.log | sed 's/"/\\"/g') 
           curl -X POST -H 'Content-type: application/json' \
-            --data '{"text":"🚨 Playwright tests failed on *staging*! Please check the Allure report."}' \
-            ${{ secrets.SLACK_WEBHOOK_URL }}
+          --data "{\"text\":\"🚨 Playwright tests failed on *staging*:\n\`\`\`${ERROR}\`\`\`\"}" \
+          ${{ secrets.SLACK_WEBHOOK_URL }}
         
       - name: Install Allure CLI
         if: always()
