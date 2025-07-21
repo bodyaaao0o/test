@@ -40,22 +40,15 @@ jobs:
           echo "exit_code=$?" >> result.env
         shell: bash
 
-      - name: Set test result output
-        id: set_result
-        run: |
-          source result.env
-          echo "exit_code=$exit_code" >> "$GITHUB_OUTPUT"
-
+      - name: Run Playwright tests in Chromium
+        run: npx playwright test --project=chromium
 
       - name: Send Slack notification on test failure
-        if: steps.set_result.outputs.exit_code != '0'
+        if: failure()  # тільки коли тести фейляться
         run: |
-          ERROR=$(tail -n 20 result.log | jq -Rs .)
           curl -X POST -H 'Content-type: application/json' \
-            --data "{\"text\":\" Playwright tests failed on *staging*:\n${ERROR}\"}" \
+            --data '{"text":"🚨 Playwright tests failed on *staging*! Please check the Allure report."}' \
             ${{ secrets.SLACK_WEBHOOK_URL }}
-
-
         
       - name: Install Allure CLI
         if: always()
