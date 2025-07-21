@@ -1,0 +1,189 @@
+{
+  "cookies": [
+    {
+      "name": "AMP_MKTG_7cc68ca4ee",
+      "value": "JTdCJTdE",
+      "domain": "localhost",
+      "path": "/",
+      "expires": 1778764387,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALBTGCORS",
+      "value": "PWZlBfaEdwMIdNedjyYhjb0SgO1W0cQxiiXTUymJ9cd0Qj2Y7L8+qxLcvepYaJpwvngoJqJSqz9UYd8DaSrc7t3zHTuW5bfHykdSgxYeQM+hjctPzoFmB6BWZjabDbzrV4E+hiSvNyLnXOICtsBkQbIuZc/gCn6WsYqx/LRZzggi",
+      "domain": "session.web3auth.io",
+      "path": "/",
+      "expires": 1747833190.489447,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "M9DT2V1H1894PdsCMHhq6BP+6uXrOEbJmteqNphWfFHUKNTMr3yHtQFtrVuBPogYi2WTFFuGESg9+sH00ZtJSz1HBI3U3h1vW/I9NEhhYhhXvtPdH2U4SC2DlS5j",
+      "domain": "session.web3auth.io",
+      "path": "/",
+      "expires": 1747833190.489556,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.947013140.1747228391",
+      "domain": ".web3auth.io",
+      "path": "/",
+      "expires": 1781788412.864646,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_DY71GQK057",
+      "value": "GS2.1.s1747228391$o1$g1$t1747228412$j0$l0$h0",
+      "domain": ".web3auth.io",
+      "path": "/",
+      "expires": 1781788412.880123,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "connect.sid",
+      "value": "s%3ArVC0Reqthr-lZa1JCN9f-DYbb6rLqbvd.jIhPU5Lo40gxMaxOLA5v2GhObzcj2Bl92Ay%2FeAduP7s",
+      "domain": "localhost",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "savedEmail",
+      "value": "testuout778@yopmail.com",
+      "domain": "localhost",
+      "path": "/",
+      "expires": 1778764417,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AMP_7cc68ca4ee",
+      "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJjZDEzMGNlNi00ODY2LTRjZTQtOWUyMy04MTdlMGFlMzk5ZWUlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzQ3MjI4Mzg3MDE4JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc0NzIyODQyNTkwOSUyQyUyMmxhc3RFdmVudElkJTIyJTNBMTQlMkMlMjJwYWdlQ291bnRlciUyMiUzQTIlN0Q=",
+      "domain": "localhost",
+      "path": "/",
+      "expires": 1778764425,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "http://localhost:3002",
+      "localStorage": [
+        {
+          "name": "penomo_cmpy_store",
+          "value": "{\"state\":{\"userData\":{\"isDeleted\":false,\"deletedAt\":null,\"_id\":\"68249701499014ffe4f21f32\",\"isProfileExisting\":false,\"walletAddress\":\"\",\"emailNotifications\":true,\"investorId\":\"\",\"role\":\"\",\"permissions\":[],\"kycStatus\":\"Not Submitted\",\"statusUpdates\":[],\"personalIdentityDocuments\":[],\"pepHits\":[],\"sanctionHits\":[],\"__v\":0,\"email\":\"testuout778@yopmail.com\",\"firstName\":\"\",\"lastName\":\"\",\"dateOfBirth\":null,\"metamaskWalletAddress\":null,\"middleNames\":\"\",\"position\":\"\",\"companyId\":\"68249701499014ffe4f21f34\",\"roleId\":\"66bb46f6f53b83dbdf8b2d5f\",\"countryOfResidence\":null,\"purchasedPnmoTokens\":false,\"totalPrnmoTokens\":0,\"prnmoTransactions\":[],\"walletDetails\":{\"web3authWalletAddress\":\"0xf537b1500c8c39b9fcc281d51c90dbece04032b0\",\"isWalletWhitelisted\":false,\"isWalletWhitelistedBitbond\":false}},\"companyData\":{\"companyTicker\":\"\",\"members\":[],\"companyName\":\"\",\"registrationNumber\":\"\",\"businessAddress\":\"\",\"businessPhone\":\"\",\"industrySector\":\"\",\"ownershipStructure\":\"\",\"businessActivities\":\"\",\"legalType\":\"\",\"registrationDate\":null,\"visitAddress\":\"\",\"postalAddress\":\"\",\"companyStatus\":\"\",\"numberOfEmployeesInterval\":\"\",\"industryCode\":\"\",\"registeredCorporateTaxID\":\"\",\"registeredCorporateVatID\":\"\",\"signingCombinations\":[],\"boardMembers\":[],\"kybStatus\":\"Not Submitted\",\"bankAccountHolderName\":\"\",\"bankName\":\"\",\"bankAccountNumber\":\"\",\"bankSwiftBicCode\":\"\",\"bankIban\":\"\",\"bankDefaultCurrency\":\"\",\"bankTransactionLimits\":\"\",\"privacySettings\":\"\",\"dataSharingPreferences\":\"\",\"consentManagement\":[],\"documentId\":[],\"isDeleted\":false,\"deletedAt\":null,\"_id\":\"68249701499014ffe4f21f34\",\"createdAt\":\"2025-05-14T13:13:37.170Z\",\"updatedAt\":\"2025-05-14T13:13:37.170Z\",\"__v\":0}},\"version\":0}"
+        },
+        {
+          "name": "EXP_7cc68ca4ee",
+          "value": "{\"web_exp_id\":\"e589b122-cc05-4f7c-8eee-f8edf3d119b9\"}"
+        },
+        {
+          "name": "AMP_unsent_7cc68ca4ee",
+          "value": "[{\"device_id\":\"cd130ce6-4866-4ce4-9e23-817e0ae399ee\",\"session_id\":1747228387018,\"time\":1747228425835,\"platform\":\"Web\",\"language\":\"uk-UA\",\"ip\":\"$remote\",\"insert_id\":\"c0146c3c-d33b-4dd8-811f-8fa33b0ae569\",\"event_type\":\"[Amplitude] Element Changed\",\"event_properties\":{\"[Amplitude] Element ID\":\"companyName\",\"[Amplitude] Element Class\":\"border border-monochrome-10 rounded px-2\",\"[Amplitude] Element Hierarchy\":[{\"tag\":\"input\",\"index\":1,\"indexOfType\":0,\"prevSib\":\"label\",\"id\":\"companyName\",\"classes\":[\"border\",\"border-monochrome-10\",\"rounded\",\"px-2\"],\"attrs\":{\"type\":\"text\"}},{\"tag\":\"div\",\"index\":2,\"indexOfType\":2,\"prevSib\":\"div\",\"classes\":[\"flex\",\"flex-col\",\"gap-2\"]},{\"tag\":\"form\",\"index\":1,\"indexOfType\":0,\"prevSib\":\"h3\",\"classes\":[\"w-full\",\"flex\",\"flex-col\",\"gap-6\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"bg-white\",\"rounded-lg\",\"p-8\",\"w-full\",\"md:w-[50%]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"items-center\",\"justify-center\",\"gap-4\",\"h-[calc(100vh-110px)]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"mb-0\",\"!m-0\",\"px-4\",\"md:px-2\",\"lg:px-4\",\"xl:px-4\",\"w-full\",\"h-full\",\"min-h-[calc(100vh-68px)]\",\"!mb-2\"]},{\"tag\":\"section\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"w-full\",\"h-full\"]}],\"[Amplitude] Element Tag\":\"input\",\"[Amplitude] Element Position Left\":360,\"[Amplitude] Element Position Top\":394,\"[Amplitude] Element Parent Label\":\"Let’s first set up your profile\",\"[Amplitude] Page URL\":\"http://localhost:3002/setupProfile\",\"[Amplitude] Page Title\":\"Raise App | penomo\",\"[Amplitude] Viewport Height\":720,\"[Amplitude] Viewport Width\":1280},\"event_id\":12,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36\"},{\"device_id\":\"cd130ce6-4866-4ce4-9e23-817e0ae399ee\",\"session_id\":1747228387018,\"time\":1747228425908,\"platform\":\"Web\",\"language\":\"uk-UA\",\"ip\":\"$remote\",\"insert_id\":\"842fbde4-0687-44dd-952b-e73bb5286d7b\",\"event_type\":\"[Amplitude] Form Submitted\",\"event_properties\":{\"[Amplitude] Form ID\":\"\",\"[Amplitude] Form Name\":\"\",\"[Amplitude] Form Destination\":\"http://localhost:3002/setupProfile\"},\"event_id\":13,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36\"},{\"device_id\":\"cd130ce6-4866-4ce4-9e23-817e0ae399ee\",\"session_id\":1747228387018,\"time\":1747228425909,\"platform\":\"Web\",\"language\":\"uk-UA\",\"ip\":\"$remote\",\"insert_id\":\"a944b379-2e80-42cf-a283-97a33311172b\",\"event_type\":\"[Amplitude] Element Clicked\",\"event_properties\":{\"[Amplitude] Element Class\":\"py-2 px-6 flex flex-row items-center cursor-pointer justify-center gap-2  bg-green-500 body-medium text-white min-h-[40px] rounded-[8px]\",\"[Amplitude] Element Hierarchy\":[{\"tag\":\"button\",\"index\":3,\"indexOfType\":0,\"prevSib\":\"div\",\"classes\":[\"py-2\",\"px-6\",\"flex\",\"flex-row\",\"items-center\",\"cursor-pointer\",\"justify-center\",\"gap-2\",\"bg-green-500\",\"body-medium\",\"text-white\",\"min-h-[40px]\",\"rounded-[8px]\"],\"attrs\":{\"type\":\"submit\"}},{\"tag\":\"form\",\"index\":1,\"indexOfType\":0,\"prevSib\":\"h3\",\"classes\":[\"w-full\",\"flex\",\"flex-col\",\"gap-6\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"bg-white\",\"rounded-lg\",\"p-8\",\"w-full\",\"md:w-[50%]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"items-center\",\"justify-center\",\"gap-4\",\"h-[calc(100vh-110px)]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"mb-0\",\"!m-0\",\"px-4\",\"md:px-2\",\"lg:px-4\",\"xl:px-4\",\"w-full\",\"h-full\",\"min-h-[calc(100vh-68px)]\",\"!mb-2\"]},{\"tag\":\"section\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"w-full\",\"h-full\"]}],\"[Amplitude] Element Tag\":\"button\",\"[Amplitude] Element Text\":\"Submit\",\"[Amplitude] Element Position Left\":360,\"[Amplitude] Element Position Top\":460,\"[Amplitude] Element Parent Label\":\"Let’s first set up your profile\",\"[Amplitude] Page URL\":\"http://localhost:3002/setupProfile\",\"[Amplitude] Page Title\":\"Raise App | penomo\",\"[Amplitude] Viewport Height\":720,\"[Amplitude] Viewport Width\":1280},\"event_id\":14,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36\"},{\"device_id\":\"cd130ce6-4866-4ce4-9e23-817e0ae399ee\",\"session_id\":1747228387018,\"time\":1747228427023,\"platform\":\"Web\",\"language\":\"uk-UA\",\"ip\":\"$remote\",\"insert_id\":\"13876d5d-bc1f-484a-8f1c-aa7f6b081103\",\"event_type\":\"[Amplitude] Page Viewed\",\"event_properties\":{\"[Amplitude] Page Domain\":\"localhost\",\"[Amplitude] Page Location\":\"http://localhost:3002/dashboard\",\"[Amplitude] Page Path\":\"/dashboard\",\"[Amplitude] Page Title\":\"Raise App | penomo\",\"[Amplitude] Page URL\":\"http://localhost:3002/dashboard\",\"[Amplitude] Page Counter\":3},\"event_id\":15,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36\"}]"
+        },
+        {
+          "name": "EXP_7cc68ca4ee_DEFAULT_USER_PROVIDER",
+          "value": "{\"first_seen\":\"1747228386.725\"}"
+        },
+        {
+          "name": "loglevel:SecurePubSub",
+          "value": "SILENT"
+        },
+        {
+          "name": "web3AuthToken",
+          "value": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlRZT2dnXy01RU9FYmxhWS1WVlJZcVZhREFncHRuZktWNDUzNU1aUEMwdzAifQ.eyJpYXQiOjE3NDcyMjg0MTMsImF1ZCI6IkJJeG9pSDBYSDV6NkJDNGNVYTVlWVpNbGZ5d0hkLVUzZ3BZT1daTzJqaTRHNzVfbXlQamhSYTdGaTJUOWw5QW5sbkVnYnFPeTR6U2h1ZVNieTFGRlU3NCIsIm5vbmNlIjoiMDNkM2ZhZWRkMWEzNTc4MjRhNWM1MmI4YWQ1N2IxOWJlNmE3ZTAwOGZmMWY2NzI2NGRhOWVmODZhYzgyNmRhZDU0IiwiaXNzIjoiaHR0cHM6Ly9hcGktYXV0aC53ZWIzYXV0aC5pbyIsIndhbGxldHMiOlt7InB1YmxpY19rZXkiOiIwMjUxZmRhMTg1MzhkNmYwYTQ1N2U1NDU3ZmM2YzIwNzM5ZjZmZGU5OWZlZGIzZDRjZjI2ZjhjZWVhNDE4NzA1YmUiLCJ0eXBlIjoid2ViM2F1dGhfYXBwX2tleSIsImN1cnZlIjoic2VjcDI1NmsxIn0seyJwdWJsaWNfa2V5IjoiMDI4OGJmZDFkY2UwODQ1YTA1OWRjM2MzM2NlNWMxMGU4OGY0MjI0MDYxOTllOGRjZDA3MjVjOTNlNjY0ZmM3NWYwIiwidHlwZSI6IndlYjNhdXRoX3RocmVzaG9sZF9rZXkiLCJjdXJ2ZSI6InNlY3AyNTZrMSJ9XSwiZW1haWwiOiJ0ZXN0dW91dDc3OEB5b3BtYWlsLmNvbSIsIm5hbWUiOiJ0ZXN0dW91dDc3OEB5b3BtYWlsLmNvbSIsInZlcmlmaWVyIjoibm9fbW9kYWxfb25seV9lbWFpbF92ZXJpZmllciIsInZlcmlmaWVySWQiOiJ0ZXN0dW91dDc3OEB5b3BtYWlsLmNvbSIsImFnZ3JlZ2F0ZVZlcmlmaWVyIjoibm9fbW9kYWxfb25seV9lbWFpbF92ZXJpZmllciIsImV4cCI6MTc0NzMxNDgxM30.uBwEYgEIppxM_OtatjuoqqE_ksZjECOUPu-5jONgFUHrwzeF8FijMFfSn5cnpLqL4NuwJrrAfn9oGScss4hNGw"
+        },
+        {
+          "name": "auth_store",
+          "value": "{\"sessionId\":\"d5b5f36a17fbb2773eba4eb8f0a58d9be49bec5d11bb97e84922f515552f3ae5\"}"
+        },
+        {
+          "name": "Web3Auth-cachedAdapter",
+          "value": "auth"
+        },
+        {
+          "name": "loginTime",
+          "value": "1747228417803"
+        },
+        {
+          "name": "authToken",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODI0OTcwMTQ5OTAxNGZmZTRmMjFmMzIiLCJ1c2VyRW1haWwiOiJ0ZXN0dW91dDc3OEB5b3BtYWlsLmNvbSIsImNvbXBhbnlJZCI6IjY4MjQ5NzAxNDk5MDE0ZmZlNGYyMWYzNCIsInJvbGUiOiJpc3N1ZXIiLCJqdGkiOiI2M2JkZWZjNS1jN2YwLTQxZmMtOGQyNy1mZWM2MDM5NGI0NjEiLCJpYXQiOjE3NDcyMjg0MTcsImV4cCI6MTc0NzMxNDgxN30.SmR4nyZuolbf7PenbAqPlC0Om196h6xE8p0MJcxqSWQ"
+        },
+        {
+          "name": "loglevel:auth",
+          "value": "ERROR"
+        },
+        {
+          "name": "loglevel:http-helpers",
+          "value": "INFO"
+        },
+        {
+          "name": "loglevel:web3auth-logger",
+          "value": "ERROR"
+        },
+        {
+          "name": "EXP_unsent_$default_instance",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "origin": "https://auth.web3auth.io",
+      "localStorage": [
+        {
+          "name": "loglevel:torus.js",
+          "value": "SILENT"
+        },
+        {
+          "name": "loglevel:SecurePubSub",
+          "value": "SILENT"
+        },
+        {
+          "name": "loglevel:fnd",
+          "value": "SILENT"
+        },
+        {
+          "name": "loglevel",
+          "value": "ERROR"
+        },
+        {
+          "name": "loglevel:http-helpers",
+          "value": "INFO"
+        },
+        {
+          "name": "loglevel:customauth",
+          "value": "SILENT"
+        }
+      ]
+    },
+    {
+      "origin": "https://passwordless.web3auth.io",
+      "localStorage": [
+        {
+          "name": "loglevel",
+          "value": "ERROR"
+        },
+        {
+          "name": "loglevel:http-helpers",
+          "value": "INFO"
+        }
+      ]
+    }
+  ]
+}
