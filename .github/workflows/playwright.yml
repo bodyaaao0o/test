@@ -2,9 +2,6 @@ name: Run Playwright tests
 
 on:
   push:
-    # branches:
-    #   - dev
-  pull_request:
     branches:
       - test
   workflow_dispatch:
@@ -24,37 +21,27 @@ jobs:
           node-version: 20
 
       - name: Change directory to test project
-        working-directory: ./company-portal-tests
         run: echo "Now in test project folder"
 
       - name: Install dependencies
-        working-directory: ./company-portal-tests
         run: npm ci
 
       - name: Install Playwright browsers
-        working-directory: ./company-portal-tests
         run: npx playwright install --with-deps
 
       - name: Clear Playwright test results
-        working-directory: ./company-portal-tests
         run: rm -rf test-results
 
       - name: Run Playwright tests in Chromium
-        working-directory: ./company-portal-tests
         run: npx playwright test --project=chromium
-        continue-on-error: true
-
-      # - name: Wait before running Mobile Safari
-      #   run: sleep 30
-
-      # - name: Clear Playwright test results
-      #   working-directory: ./company-portal-tests
-      #   run: rm -rf test-results
-
-      # - name: Run login test on Mobile Safari (iPhone 12)
-      #   working-directory: ./company-portal-tests
-      #   run: npx playwright test tests/login.spec.ts --project="Mobile Safari"
-
+        
+      - name: Send Slack notification on test failure
+        if: failure()  # тільки коли тести фейляться
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+            --data '{"text":"🚨 Playwright tests failed on *staging*! Please check the Allure report."}' \
+            ${{ secrets.SLACK_WEBHOOK_URL }}
+        
       - name: Install Allure CLI
         if: always()
         run: npm install -g allure-commandline
