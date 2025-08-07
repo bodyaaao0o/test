@@ -15,8 +15,16 @@ export class DashboardPage {
         return this.page.locator('.notification-card.flex.justify-between.items-center');
     };
 
+    getCloseHelloNotificationButton(): Locator {
+        return this.page.locator('div.ml-4.flex.flex-row.gap-2.justify-center.items-center');
+    };
+
+    clickOnCloseHelloNotificationButton() {
+        return this.getCloseHelloNotificationButton().click();
+    };
+
     getHelloNotificationText(): Locator {
-        return this.page.locator('p', { hasText: `Hello companyAutotest, You can now start with submitting your first financing` }).nth(0);
+        return this.page.locator('p', { hasText: `Hello ${this.user_name}, You can now start with submitting your first financing` }).nth(0);
     };
 
     getNavBox(): Locator {

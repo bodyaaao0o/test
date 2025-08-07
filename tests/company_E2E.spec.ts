@@ -63,7 +63,7 @@ test.describe("E2E company flow", () => {
             await pm.dashboardTo().clickOnCloseBurgerMenu();
         };
 
-        await page.waitForTimeout(30000);
+        await pm.dashboardTo().clickOnCloseHelloNotificationButton();
 
         await pm.dashboardTo().getButtonGetStarted().click();
 

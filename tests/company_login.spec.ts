@@ -123,6 +123,8 @@ test.describe("Login as company", () => {
         await pm.profile().getSubmitButton().click();
         await page.waitForLoadState();
         await expect(page).toHaveURL(stageCompanyDashboard);
+        await page.waitForTimeout(5000);
+        await context.storageState({ path: 'playwright/.auth/company_login.json' })
     });
 
     test("Log in on company page", async ({ context, page }, testInfo) => {
@@ -213,7 +215,5 @@ test.describe("Login as company", () => {
 
         await popup.waitForEvent('close');
         await page.waitForURL('**/dashboard');
-        await page.waitForTimeout(15000);
-        await context.storageState({ path: 'playwright/.auth/company_login.json' })
     });
 })

@@ -5,54 +5,54 @@
       "value": "JTdCJTdE",
       "domain": ".penomo.com",
       "path": "/",
-      "expires": 1786110452,
+      "expires": 1786116456,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "AWSALBTGCORS",
-      "value": "5lnmQ54R8lDedTU4p8LO940xShwnAieNsDsBv3TI4dHUdej+Oc8yfOe34/rUNonFJqy/3H2ZNkKJhJq95WWylWnIXqXnWAbhUWiT1ULtx9r1R4U2egbuz9GU+cyUiPRra2cq/mPYSEzj9CP+vN7nr5qg3OMqG6jQL7tn4Nx/A7eR",
+      "value": "YgB8Ro3WP1oUCy+Qb9zrUriNcHuWjXRydxlVtL9hU/oTH06K1VqoqBYdZcO0oTTtVf2jM8fWQCZriUc8IERcKIxCN0x3rm9PA4nO4VHcIbmS3CG5y+X6Qjqy7PxaV8hpOHfytGcKv/lmO5GQyUBBL5MD5FY1H5gUpo3Mx8bW2bOU",
       "domain": "session.web3auth.io",
       "path": "/",
-      "expires": 1755179253.745033,
+      "expires": 1755185257.79797,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "AWSALBCORS",
-      "value": "45+gdrCs2u/2CDUrpVDGCKYbPQvJdD2Wp0oPnm1cTupC/jVOOXpb8GRyAfHWGi5lUYaZ8m7xK4/bYSbKQU9T/YTPH6FGOZWBYu6c811WxbuJxn4mxkB+gboeYw44",
+      "value": "tLQJHoLE0HRu5P2TLmK4UA3wbJHtlvH+mv11TvuJ3fwoao7gEZHwp8kjSh8ngdFALVx2FzLd7J0WddqxpZAX0aGqly5VyKqY3Lfshpsrfoy0MSqR3y2uXQ4hPljT",
       "domain": "session.web3auth.io",
       "path": "/",
-      "expires": 1755179253.745097,
+      "expires": 1755185257.798076,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "_ga",
-      "value": "GA1.1.1540880488.1754574455",
+      "value": "GA1.1.2129141016.1754580458",
       "domain": ".web3auth.io",
       "path": "/",
-      "expires": 1789134462.581908,
+      "expires": 1789140463.487499,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_ga_DY71GQK057",
-      "value": "GS2.1.s1754574455$o1$g1$t1754574465$j50$l0$h0",
+      "value": "GS2.1.s1754580458$o1$g1$t1754580466$j52$l0$h0",
       "domain": ".web3auth.io",
       "path": "/",
-      "expires": 1789134465.355353,
+      "expires": 1789140466.605808,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "connect.sid",
-      "value": "s%3Ayr_Fgsmk6gf3uHO1EuPTMlRV9xxClMDa.xVbVfigIQc24WBAKqUWAnpBARKGnlInPeO%2BTlZ%2FDBdc",
+      "value": "s%3AGslEpQ1GJq1E9PP2drfqtzZJ5q2JDbVP.A5RI452EKhQUPS86iQzqrt0rL3eCp9AFfcKrhMvrlao",
       "domain": "staging.api.penomo.com",
       "path": "/",
       "expires": -1,
@@ -62,40 +62,40 @@
     },
     {
       "name": "savedEmail",
-      "value": "penomo-at-company@sbmchbly.mailosaur.net",
+      "value": "xbjc4y2@sbmchbly.mailosaur.net",
       "domain": "www.staging.raise.penomo.com",
       "path": "/",
-      "expires": 1786110467,
+      "expires": 1786116467,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "AMP_7cc68ca4ee",
-      "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjI2MWM0MThjOC0yZWU3LTQxZTEtOWUxZi1mNGQ1ZDMzOTI5YjIlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzU0NTc0NDUyMzI0JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc1NDU3NDQ2NzYxMSUyQyUyMmxhc3RFdmVudElkJTIyJTNBNiUyQyUyMnBhZ2VDb3VudGVyJTIyJTNBMyU3RA==",
+      "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJmOGY0ZjhhMi0zOGM1LTQ1OWItYWFkMi1mYjlhZDIwMTM2NjIlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzU0NTgwNDU2NDYyJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc1NDU4MDQ3MDU5OCUyQyUyMmxhc3RFdmVudElkJTIyJTNBMjAlMkMlMjJwYWdlQ291bnRlciUyMiUzQTYlN0Q=",
       "domain": ".penomo.com",
       "path": "/",
-      "expires": 1786110467,
+      "expires": 1786116470,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "AWSALBTG",
-      "value": "JF0Z72G8Pp4uXY8cHNmlPeusdgcvROqSHEmYSJlG3vowdsNhlGWuYAAgnC3sw/8IeW8Mo2YNVmhOynxhY9EztYj42eVJaPkRi/mhmcmkDAJbVNjy/1G6GGN+ViW4UXH19ZvRs5stEOZlLiGKEp7IDSCw5xzN5LNudDPnRAIMncuwPlIG2PA=",
+      "value": "/SzNE6kBgItZf/xXPGIe7ecPgMbh+cfhsqvNdiVQv9QRQIhLdEZ8CCHpfE1vWAJdssiwfREWPmtQHIC4PIh9rnleCSY7WnEiXgxnJBU1Fne2WEYyfNTMcFjt7Bb+ipT6/7/87ymcftizLaYLfuceja2AS36I6lUZMRKzgfHA4F3Bhx5CZY4=",
       "domain": "staging.api.penomo.com",
       "path": "/",
-      "expires": 1755179267.964788,
+      "expires": 1755185270.721139,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "AWSALBTGCORS",
-      "value": "JF0Z72G8Pp4uXY8cHNmlPeusdgcvROqSHEmYSJlG3vowdsNhlGWuYAAgnC3sw/8IeW8Mo2YNVmhOynxhY9EztYj42eVJaPkRi/mhmcmkDAJbVNjy/1G6GGN+ViW4UXH19ZvRs5stEOZlLiGKEp7IDSCw5xzN5LNudDPnRAIMncuwPlIG2PA=",
+      "value": "/SzNE6kBgItZf/xXPGIe7ecPgMbh+cfhsqvNdiVQv9QRQIhLdEZ8CCHpfE1vWAJdssiwfREWPmtQHIC4PIh9rnleCSY7WnEiXgxnJBU1Fne2WEYyfNTMcFjt7Bb+ipT6/7/87ymcftizLaYLfuceja2AS36I6lUZMRKzgfHA4F3Bhx5CZY4=",
       "domain": "staging.api.penomo.com",
       "path": "/",
-      "expires": 1755179267.964861,
+      "expires": 1755185270.72128,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -107,19 +107,19 @@
       "localStorage": [
         {
           "name": "penomo_cmpy_store",
-          "value": "{\"state\":{\"userData\":{\"isDeleted\":false,\"deletedAt\":null,\"_id\":\"682376804eac6ecab56163ab\",\"isProfileExisting\":true,\"walletAddress\":\"\",\"emailNotifications\":true,\"investorId\":\"\",\"role\":\"\",\"permissions\":[],\"kycStatus\":\"Not Submitted\",\"statusUpdates\":[],\"personalIdentityDocuments\":[],\"pepHits\":[],\"sanctionHits\":[],\"__v\":0,\"email\":\"penomo-at-company@sbmchbly.mailosaur.net\",\"firstName\":\"companyAutotest\",\"lastName\":\"login\",\"dateOfBirth\":null,\"metamaskWalletAddress\":null,\"middleNames\":\"\",\"position\":\"\",\"companyId\":\"682376804eac6ecab56163ad\",\"roleId\":\"67a5b3bc6dac5eba5ff76a4e\",\"countryOfResidence\":null,\"purchasedPnmoTokens\":false,\"totalPrnmoTokens\":0,\"prnmoTransactions\":[],\"walletDetails\":{\"web3authWalletAddress\":\"0x2799de4ffa5dd6890a86267607a99aee80db0da5\",\"isWalletWhitelisted\":false,\"isWalletWhitelistedBitbond\":false},\"companyDetails\":{\"_id\":\"682376804eac6ecab56163ad\",\"members\":[],\"signingCombinations\":[],\"boardMembers\":[],\"kybStatus\":\"Not Submitted\",\"consentManagement\":[],\"documentId\":[],\"isDeleted\":false,\"deletedAt\":null,\"createdAt\":\"2025-05-13T16:42:40.506Z\",\"updatedAt\":\"2025-05-13T16:43:14.023Z\",\"__v\":0,\"companyName\":\"test\"}},\"companyData\":{\"companyTicker\":\"\",\"members\":[],\"companyName\":\"test\",\"registrationNumber\":\"\",\"businessAddress\":\"\",\"businessPhone\":\"\",\"industrySector\":\"\",\"ownershipStructure\":\"\",\"businessActivities\":\"\",\"legalType\":\"\",\"registrationDate\":null,\"visitAddress\":\"\",\"postalAddress\":\"\",\"companyStatus\":\"\",\"numberOfEmployeesInterval\":\"\",\"industryCode\":\"\",\"registeredCorporateTaxID\":\"\",\"registeredCorporateVatID\":\"\",\"signingCombinations\":[],\"boardMembers\":[],\"kybStatus\":\"Not Submitted\",\"bankAccountHolderName\":\"\",\"bankName\":\"\",\"bankAccountNumber\":\"\",\"bankSwiftBicCode\":\"\",\"bankIban\":\"\",\"bankDefaultCurrency\":\"\",\"bankTransactionLimits\":\"\",\"privacySettings\":\"\",\"dataSharingPreferences\":\"\",\"consentManagement\":[],\"documentId\":[],\"isDeleted\":false,\"deletedAt\":null,\"_id\":\"682376804eac6ecab56163ad\",\"createdAt\":\"2025-05-13T16:42:40.506Z\",\"updatedAt\":\"2025-05-13T16:43:14.023Z\",\"__v\":0}},\"version\":0}"
+          "value": "{\"state\":{\"userData\":{\"isDeleted\":false,\"deletedAt\":null,\"_id\":\"6894c5f3f2bbcc6b06fab62c\",\"isProfileExisting\":true,\"walletAddress\":\"\",\"emailNotifications\":true,\"investorId\":\"\",\"role\":\"\",\"permissions\":[],\"kycStatus\":\"Not Submitted\",\"statusUpdates\":[],\"personalIdentityDocuments\":[],\"pepHits\":[],\"sanctionHits\":[],\"__v\":0,\"email\":\"xbjc4y2@sbmchbly.mailosaur.net\",\"firstName\":\"arsen\",\"lastName\":\"autotests\",\"dateOfBirth\":null,\"metamaskWalletAddress\":null,\"middleNames\":\"\",\"position\":\"\",\"companyId\":\"6894c5f3f2bbcc6b06fab62e\",\"roleId\":\"67a5b3bc6dac5eba5ff76a4e\",\"countryOfResidence\":null,\"purchasedPnmoTokens\":false,\"totalPrnmoTokens\":0,\"isOnboardingCompleted\":false,\"prnmoTransactions\":[],\"walletDetails\":{\"web3authWalletAddress\":\"0xd72079626e7b7972b772e624732fc117b75b3788\",\"isWalletWhitelisted\":false,\"isWalletWhitelistedBitbond\":false},\"companyDetails\":{\"_id\":\"6894c5f3f2bbcc6b06fab62e\",\"members\":[],\"signingCombinations\":[],\"boardMembers\":[],\"kybStatus\":\"Not Submitted\",\"consentManagement\":[],\"documentId\":[],\"isDeleted\":false,\"deletedAt\":null,\"createdAt\":\"2025-08-07T15:27:47.781Z\",\"updatedAt\":\"2025-08-07T15:27:48.494Z\",\"__v\":0,\"companyName\":\"ArsenAutotest\"}},\"companyData\":{\"companyTicker\":\"\",\"members\":[],\"companyName\":\"ArsenAutotest\",\"registrationNumber\":\"\",\"businessAddress\":\"\",\"businessPhone\":\"\",\"industrySector\":\"\",\"ownershipStructure\":\"\",\"businessActivities\":\"\",\"legalType\":\"\",\"registrationDate\":null,\"visitAddress\":\"\",\"postalAddress\":\"\",\"companyStatus\":\"\",\"numberOfEmployeesInterval\":\"\",\"industryCode\":\"\",\"registeredCorporateTaxID\":\"\",\"registeredCorporateVatID\":\"\",\"signingCombinations\":[],\"boardMembers\":[],\"kybStatus\":\"Not Submitted\",\"bankAccountHolderName\":\"\",\"bankName\":\"\",\"bankAccountNumber\":\"\",\"bankSwiftBicCode\":\"\",\"bankIban\":\"\",\"bankDefaultCurrency\":\"\",\"bankTransactionLimits\":\"\",\"privacySettings\":\"\",\"dataSharingPreferences\":\"\",\"consentManagement\":[],\"documentId\":[],\"isDeleted\":false,\"deletedAt\":null,\"_id\":\"6894c5f3f2bbcc6b06fab62e\",\"createdAt\":\"2025-08-07T15:27:47.781Z\",\"updatedAt\":\"2025-08-07T15:27:48.494Z\",\"__v\":0}},\"version\":0}"
         },
         {
           "name": "EXP_7cc68ca4ee",
-          "value": "{\"web_exp_id\":\"a6834492-0177-41d1-846a-06c5ad71767b\"}"
+          "value": "{\"web_exp_id\":\"7338f206-1f81-4bbe-a5d1-50ab0823d251\"}"
+        },
+        {
+          "name": "EXP_7cc68ca4ee_DEFAULT_USER_PROVIDER",
+          "value": "{\"first_seen\":\"1754580456.697\"}"
         },
         {
           "name": "AMP_unsent_7cc68ca4ee",
           "value": "[]"
-        },
-        {
-          "name": "EXP_7cc68ca4ee_DEFAULT_USER_PROVIDER",
-          "value": "{\"first_seen\":\"1754574452.701\"}"
         },
         {
           "name": "loglevel:SecurePubSub",
@@ -127,11 +127,11 @@
         },
         {
           "name": "web3AuthToken",
-          "value": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlRZT2dnXy01RU9FYmxhWS1WVlJZcVZhREFncHRuZktWNDUzNU1aUEMwdzAifQ.eyJpYXQiOjE3NTQ1NzQ0NjMsImF1ZCI6IkJJeG9pSDBYSDV6NkJDNGNVYTVlWVpNbGZ5d0hkLVUzZ3BZT1daTzJqaTRHNzVfbXlQamhSYTdGaTJUOWw5QW5sbkVnYnFPeTR6U2h1ZVNieTFGRlU3NCIsIm5vbmNlIjoiMDJlODg5OTU3ODA5NDVjOWE2ZWQ0ZDM0OGQ0OTE4YzUxMzUzYWYxZTI3NTQ1NjNlZmYwYWQ2NjE1NDNhOGI0YThjIiwiaXNzIjoiaHR0cHM6Ly9hcGktYXV0aC53ZWIzYXV0aC5pbyIsIndhbGxldHMiOlt7InB1YmxpY19rZXkiOiIwMzFjYzFhYTNhNDdmNDFmMzU2MWU0MGRmMzcxY2ExMDAzN2Q3YWFkNWM0NTYwOGQ0MmEzZjhiMTdhODIyYmRmMDIiLCJ0eXBlIjoid2ViM2F1dGhfYXBwX2tleSIsImN1cnZlIjoic2VjcDI1NmsxIn0seyJwdWJsaWNfa2V5IjoiMDMxMjgxY2U4YjFjNDk2YjViOTU2ZDFkZGJlYzI2ZTFiN2E1NjdlODA5MmFkNDlkNDlkYjc3NzMyYTAxZTg0ZDEwIiwidHlwZSI6IndlYjNhdXRoX3RocmVzaG9sZF9rZXkiLCJjdXJ2ZSI6InNlY3AyNTZrMSJ9XSwiZW1haWwiOiJwZW5vbW8tYXQtY29tcGFueUBzYm1jaGJseS5tYWlsb3NhdXIubmV0IiwibmFtZSI6InBlbm9tby1hdC1jb21wYW55QHNibWNoYmx5Lm1haWxvc2F1ci5uZXQiLCJ2ZXJpZmllciI6Im5vX21vZGFsX29ubHlfZW1haWxfdmVyaWZpZXIiLCJhdXRoQ29ubmVjdGlvbklkIjoibm9fbW9kYWxfb25seV9lbWFpbF92ZXJpZmllciIsInZlcmlmaWVySWQiOiJwZW5vbW8tYXQtY29tcGFueUBzYm1jaGJseS5tYWlsb3NhdXIubmV0IiwidXNlcklkIjoicGVub21vLWF0LWNvbXBhbnlAc2JtY2hibHkubWFpbG9zYXVyLm5ldCIsImFnZ3JlZ2F0ZVZlcmlmaWVyIjoibm9fbW9kYWxfb25seV9lbWFpbF92ZXJpZmllciIsImdyb3VwZWRBdXRoQ29ubmVjdGlvbklkIjoibm9fbW9kYWxfb25seV9lbWFpbF92ZXJpZmllciIsImV4cCI6MTc1NDY2MDg2M30.Bms6O7vsvMPSMSjKEIda4QV6ceSsDt9cduvGSlOZeyAiRTzQbFktarW8zuL8CcdBx5j5cAXEPHJAKak6ON_hyw"
+          "value": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlRZT2dnXy01RU9FYmxhWS1WVlJZcVZhREFncHRuZktWNDUzNU1aUEMwdzAifQ.eyJpYXQiOjE3NTQ1ODA0NjUsImF1ZCI6IkJJeG9pSDBYSDV6NkJDNGNVYTVlWVpNbGZ5d0hkLVUzZ3BZT1daTzJqaTRHNzVfbXlQamhSYTdGaTJUOWw5QW5sbkVnYnFPeTR6U2h1ZVNieTFGRlU3NCIsIm5vbmNlIjoiMDJlYzI1OTU0YTE0MjVlZWQ3MDg1YTkzNTY4Yzg5NWQyNjdjYTc0YzAwZDA4Mjc3Y2M4YWVhN2E1MGJhMGRlMTBiIiwiaXNzIjoiaHR0cHM6Ly9hcGktYXV0aC53ZWIzYXV0aC5pbyIsIndhbGxldHMiOlt7InB1YmxpY19rZXkiOiIwMmFiNGQyODYzYzE2YjQ1MWU1Njg1MGRjZWE4ODkyYmYzZTM0OTBhNDE5Mzg3NzViMTk2MjM5NzFlMDM0OWM0YmYiLCJ0eXBlIjoid2ViM2F1dGhfYXBwX2tleSIsImN1cnZlIjoic2VjcDI1NmsxIn0seyJwdWJsaWNfa2V5IjoiMDNkOGMwZjhkNjQ4NjhiN2ZkYmU4YWE3ZTcyMTljMjNmZDM4MTYyNTAwZjBlMTRjMjk3OTYzNmU5NjA4YWQwY2QyIiwidHlwZSI6IndlYjNhdXRoX3RocmVzaG9sZF9rZXkiLCJjdXJ2ZSI6InNlY3AyNTZrMSJ9XSwiZW1haWwiOiJ4YmpjNHkyQHNibWNoYmx5Lm1haWxvc2F1ci5uZXQiLCJuYW1lIjoieGJqYzR5MkBzYm1jaGJseS5tYWlsb3NhdXIubmV0IiwidmVyaWZpZXIiOiJub19tb2RhbF9vbmx5X2VtYWlsX3ZlcmlmaWVyIiwiYXV0aENvbm5lY3Rpb25JZCI6Im5vX21vZGFsX29ubHlfZW1haWxfdmVyaWZpZXIiLCJ2ZXJpZmllcklkIjoieGJqYzR5MkBzYm1jaGJseS5tYWlsb3NhdXIubmV0IiwidXNlcklkIjoieGJqYzR5MkBzYm1jaGJseS5tYWlsb3NhdXIubmV0IiwiYWdncmVnYXRlVmVyaWZpZXIiOiJub19tb2RhbF9vbmx5X2VtYWlsX3ZlcmlmaWVyIiwiZ3JvdXBlZEF1dGhDb25uZWN0aW9uSWQiOiJub19tb2RhbF9vbmx5X2VtYWlsX3ZlcmlmaWVyIiwiZXhwIjoxNzU0NjY2ODY1fQ.A89LN_1sLkkwf5uVdYMuM-rudYWcv6A8HYn_A3fd4H6pkmwGBaMf3EaUJhuu-YIYB6DzelCYAo_DmK-wyUJogg"
         },
         {
           "name": "auth_store",
-          "value": "{\"sessionId\":\"dfda060efc6e2fae9b5d3955fd22d7fc9caf3334257bc9a7331e871d9e3c1310\"}"
+          "value": "{\"sessionId\":\"fd50f9d8dd49e071db1091dea9a3dedf7cf00d2fc61f4d42e43466f258a3d385\"}"
         },
         {
           "name": "Web3Auth-cachedAdapter",
@@ -139,11 +139,11 @@
         },
         {
           "name": "loginTime",
-          "value": "1754574467385"
+          "value": "1754580467838"
         },
         {
           "name": "authToken",
-          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODIzNzY4MDRlYWM2ZWNhYjU2MTYzYWIiLCJ1c2VyRW1haWwiOiJwZW5vbW8tYXQtY29tcGFueUBzYm1jaGJseS5tYWlsb3NhdXIubmV0IiwiY29tcGFueUlkIjoiNjgyMzc2ODA0ZWFjNmVjYWI1NjE2M2FkIiwicm9sZSI6Imlzc3VlciIsImp0aSI6ImJkZTU4NjQwLTMxNzEtNGM2YS05MDVlLTA1MzdkNGY3OGEwNiIsImlhdCI6MTc1NDU3NDQ2NSwiZXhwIjoxNzU0NTc4MDY1fQ.F0d7s5RmS4zN-uwrkbOdBvooFRFh8fkVsmurkc6jwUM"
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODk0YzVmM2YyYmJjYzZiMDZmYWI2MmMiLCJ1c2VyRW1haWwiOiJ4YmpjNHkyQHNibWNoYmx5Lm1haWxvc2F1ci5uZXQiLCJjb21wYW55SWQiOiI2ODk0YzVmM2YyYmJjYzZiMDZmYWI2MmUiLCJyb2xlIjoiaXNzdWVyIiwianRpIjoiMGQ5YWM2YzAtNDcxZi00YTUxLWIxYTctNzc2NjA4ZDg1NGE0IiwiaWF0IjoxNzU0NTgwNDY3LCJleHAiOjE3NTQ1ODQwNjd9.NoAIScXAv5DdM8owRT83dCchZrOGRbflm9HQ48KRzoQ"
         },
         {
           "name": "loglevel:auth",
