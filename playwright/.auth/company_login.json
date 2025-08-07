@@ -5,54 +5,54 @@
       "value": "JTdCJTdE",
       "domain": ".penomo.com",
       "path": "/",
-      "expires": 1786109070,
+      "expires": 1786110452,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "AWSALBTGCORS",
-      "value": "S203PXe5d1QiC92Y7REcoB2gCdm9TmsFBjtBm99NUtp2enO2M+VE6YlmY+x81TVw/2rzA0fEsGMdv1/n7bwzIuRC4/0OTRGlVC/NSi5UtPMdAdaLXirp6vgaPcSKFHCGvTLGLeD27gyif3Y342MWob7ijxrrvjCkRIBvW0tpslNO",
+      "value": "5lnmQ54R8lDedTU4p8LO940xShwnAieNsDsBv3TI4dHUdej+Oc8yfOe34/rUNonFJqy/3H2ZNkKJhJq95WWylWnIXqXnWAbhUWiT1ULtx9r1R4U2egbuz9GU+cyUiPRra2cq/mPYSEzj9CP+vN7nr5qg3OMqG6jQL7tn4Nx/A7eR",
       "domain": "session.web3auth.io",
       "path": "/",
-      "expires": 1755177873.162229,
+      "expires": 1755179253.745033,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "AWSALBCORS",
-      "value": "JFmMmzFvrQsNdpA3QiI8m+pY3noKi3x4RORl7MORSpKHCmqbwmgO7tVNJKVXPWXTwdhX9UGVrifFggWgGwcEo+I3jawPY4JVGYl3OYfGojOGyxN5rXlCw4+5rcND",
+      "value": "45+gdrCs2u/2CDUrpVDGCKYbPQvJdD2Wp0oPnm1cTupC/jVOOXpb8GRyAfHWGi5lUYaZ8m7xK4/bYSbKQU9T/YTPH6FGOZWBYu6c811WxbuJxn4mxkB+gboeYw44",
       "domain": "session.web3auth.io",
       "path": "/",
-      "expires": 1755177873.162331,
+      "expires": 1755179253.745097,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "_ga",
-      "value": "GA1.1.1426907423.1754573075",
+      "value": "GA1.1.1540880488.1754574455",
       "domain": ".web3auth.io",
       "path": "/",
-      "expires": 1789133080.776367,
+      "expires": 1789134462.581908,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_ga_DY71GQK057",
-      "value": "GS2.1.s1754573074$o1$g1$t1754573084$j50$l0$h0",
+      "value": "GS2.1.s1754574455$o1$g1$t1754574465$j50$l0$h0",
       "domain": ".web3auth.io",
       "path": "/",
-      "expires": 1789133084.779323,
+      "expires": 1789134465.355353,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "connect.sid",
-      "value": "s%3AU129eeHspC6jxXoQoIOPc7OamyHOEA1V.Nt0RMscIYCZfEGK9Uv3Ar5sXEbhVje%2FVE436VxdCFB8",
+      "value": "s%3Ayr_Fgsmk6gf3uHO1EuPTMlRV9xxClMDa.xVbVfigIQc24WBAKqUWAnpBARKGnlInPeO%2BTlZ%2FDBdc",
       "domain": "staging.api.penomo.com",
       "path": "/",
       "expires": -1,
@@ -62,40 +62,40 @@
     },
     {
       "name": "savedEmail",
-      "value": "f0vslte@sbmchbly.mailosaur.net",
+      "value": "penomo-at-company@sbmchbly.mailosaur.net",
       "domain": "www.staging.raise.penomo.com",
       "path": "/",
-      "expires": 1786109086,
+      "expires": 1786110467,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "AMP_7cc68ca4ee",
-      "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjIzMWVjODUzNi00MzgxLTRjNzAtODBlYy04MDA4ZTA4MTVlMWIlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzU0NTczMDcwODE1JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc1NDU3MzA4Njg3NCUyQyUyMmxhc3RFdmVudElkJTIyJTNBMTglMkMlMjJwYWdlQ291bnRlciUyMiUzQTQlN0Q=",
+      "value": "JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjI2MWM0MThjOC0yZWU3LTQxZTEtOWUxZi1mNGQ1ZDMzOTI5YjIlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzU0NTc0NDUyMzI0JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc1NDU3NDQ2NzYxMSUyQyUyMmxhc3RFdmVudElkJTIyJTNBNiUyQyUyMnBhZ2VDb3VudGVyJTIyJTNBMyU3RA==",
       "domain": ".penomo.com",
       "path": "/",
-      "expires": 1786109086,
+      "expires": 1786110467,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "AWSALBTG",
-      "value": "uycr40HNz4kgP8ge9HbF3bQsS3WFh7UY+GE5/Op727wPc5q8jsAYEhl+k1yHGDDZEErtkYebrz3HzUIMoBSuy+iT+QGjfbjV4h5ww3Ozqh+LDxiid8TXXn5ECijNlyqi03Q1E47XHeR1OhYPi/h0LR/TNBf8APRSIeFPTktF+KRAvsBRIcc=",
+      "value": "JF0Z72G8Pp4uXY8cHNmlPeusdgcvROqSHEmYSJlG3vowdsNhlGWuYAAgnC3sw/8IeW8Mo2YNVmhOynxhY9EztYj42eVJaPkRi/mhmcmkDAJbVNjy/1G6GGN+ViW4UXH19ZvRs5stEOZlLiGKEp7IDSCw5xzN5LNudDPnRAIMncuwPlIG2PA=",
       "domain": "staging.api.penomo.com",
       "path": "/",
-      "expires": 1755177887.096866,
+      "expires": 1755179267.964788,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "AWSALBTGCORS",
-      "value": "uycr40HNz4kgP8ge9HbF3bQsS3WFh7UY+GE5/Op727wPc5q8jsAYEhl+k1yHGDDZEErtkYebrz3HzUIMoBSuy+iT+QGjfbjV4h5ww3Ozqh+LDxiid8TXXn5ECijNlyqi03Q1E47XHeR1OhYPi/h0LR/TNBf8APRSIeFPTktF+KRAvsBRIcc=",
+      "value": "JF0Z72G8Pp4uXY8cHNmlPeusdgcvROqSHEmYSJlG3vowdsNhlGWuYAAgnC3sw/8IeW8Mo2YNVmhOynxhY9EztYj42eVJaPkRi/mhmcmkDAJbVNjy/1G6GGN+ViW4UXH19ZvRs5stEOZlLiGKEp7IDSCw5xzN5LNudDPnRAIMncuwPlIG2PA=",
       "domain": "staging.api.penomo.com",
       "path": "/",
-      "expires": 1755177887.096974,
+      "expires": 1755179267.964861,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -106,40 +106,20 @@
       "origin": "https://www.staging.raise.penomo.com",
       "localStorage": [
         {
-          "name": "AMP_unsent_7cc68ca4ee",
-          "value": "[{\"device_id\":\"31ec8536-4381-4c70-80ec-8008e0815e1b\",\"session_id\":1754573070815,\"time\":1754573086404,\"platform\":\"Web\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"ce10448b-fa47-4f6e-b726-d4cfb2e831ef\",\"event_type\":\"[Amplitude] Page Viewed\",\"event_properties\":{\"[Amplitude] Page Domain\":\"www.staging.raise.penomo.com\",\"[Amplitude] Page Location\":\"https://www.staging.raise.penomo.com/setupProfile\",\"[Amplitude] Page Path\":\"/setupProfile\",\"[Amplitude] Page Title\":\"Raise App | penomo\",\"[Amplitude] Page URL\":\"https://www.staging.raise.penomo.com/setupProfile\",\"[Amplitude] Page Counter\":3},\"event_id\":6,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.25 Safari/537.36\"},{\"device_id\":\"31ec8536-4381-4c70-80ec-8008e0815e1b\",\"session_id\":1754573070815,\"time\":1754573086547,\"platform\":\"Web\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"4e5deb62-aaac-411d-837a-d4758c62f94a\",\"event_type\":\"[Amplitude] Element Changed\",\"event_properties\":{\"[Amplitude] Element ID\":\"firstName\",\"[Amplitude] Element Class\":\"border border-monochrome-10 rounded px-2\",\"[Amplitude] Element Hierarchy\":[{\"tag\":\"input\",\"index\":1,\"indexOfType\":0,\"prevSib\":\"label\",\"id\":\"firstName\",\"classes\":[\"border\",\"border-monochrome-10\",\"rounded\",\"px-2\"],\"attrs\":{\"type\":\"text\"}},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"gap-2\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"grid\",\"grid-cols-1\",\"md:grid-cols-2\",\"gap-4\",\"md:gap-x-2\"]},{\"tag\":\"form\",\"index\":1,\"indexOfType\":0,\"prevSib\":\"h3\",\"classes\":[\"w-full\",\"flex\",\"flex-col\",\"gap-6\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"bg-white\",\"rounded-lg\",\"p-8\",\"w-full\",\"md:w-[50%]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"items-center\",\"justify-center\",\"gap-4\",\"h-[calc(100vh-110px)]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"mb-0\",\"px-4\",\"mx-auto\",\"w-full\",\"pt-0\",\"h-[calc(100vh-64px)]\"]},{\"tag\":\"section\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"w-full\",\"h-full\"]}],\"[Amplitude] Element Tag\":\"input\",\"[Amplitude] Element Position Left\":360,\"[Amplitude] Element Position Top\":187,\"[Amplitude] Element Parent Label\":\"Let's first set up your profile\",\"[Amplitude] Page URL\":\"https://www.staging.raise.penomo.com/setupProfile\",\"[Amplitude] Page Title\":\"Raise App | penomo\",\"[Amplitude] Viewport Height\":720,\"[Amplitude] Viewport Width\":1280},\"event_id\":7,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.25 Safari/537.36\"},{\"device_id\":\"31ec8536-4381-4c70-80ec-8008e0815e1b\",\"session_id\":1754573070815,\"time\":1754573086552,\"platform\":\"Web\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"2090b726-9c9e-43a0-b559-bb5720ac0a83\",\"event_type\":\"[Amplitude] Form Started\",\"event_properties\":{\"[Amplitude] Form ID\":\"\",\"[Amplitude] Form Name\":\"\",\"[Amplitude] Form Destination\":\"https://www.staging.raise.penomo.com/setupProfile\"},\"event_id\":8,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.25 Safari/537.36\"},{\"device_id\":\"31ec8536-4381-4c70-80ec-8008e0815e1b\",\"session_id\":1754573070815,\"time\":1754573086567,\"platform\":\"Web\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"5663512c-c262-4c2e-b456-b8dbc7019e2b\",\"event_type\":\"[Amplitude] Element Changed\",\"event_properties\":{\"[Amplitude] Element ID\":\"lastName\",\"[Amplitude] Element Class\":\"border border-monochrome-10 rounded px-2\",\"[Amplitude] Element Hierarchy\":[{\"tag\":\"input\",\"index\":1,\"indexOfType\":0,\"prevSib\":\"label\",\"id\":\"lastName\",\"classes\":[\"border\",\"border-monochrome-10\",\"rounded\",\"px-2\"],\"attrs\":{\"type\":\"text\"}},{\"tag\":\"div\",\"index\":1,\"indexOfType\":1,\"prevSib\":\"div\",\"classes\":[\"flex\",\"flex-col\",\"gap-2\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"grid\",\"grid-cols-1\",\"md:grid-cols-2\",\"gap-4\",\"md:gap-x-2\"]},{\"tag\":\"form\",\"index\":1,\"indexOfType\":0,\"prevSib\":\"h3\",\"classes\":[\"w-full\",\"flex\",\"flex-col\",\"gap-6\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"bg-white\",\"rounded-lg\",\"p-8\",\"w-full\",\"md:w-[50%]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"items-center\",\"justify-center\",\"gap-4\",\"h-[calc(100vh-110px)]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"mb-0\",\"px-4\",\"mx-auto\",\"w-full\",\"pt-0\",\"h-[calc(100vh-64px)]\"]},{\"tag\":\"section\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"w-full\",\"h-full\"]}],\"[Amplitude] Element Tag\":\"input\",\"[Amplitude] Element Position Left\":644,\"[Amplitude] Element Position Top\":187,\"[Amplitude] Element Parent Label\":\"Let's first set up your profile\",\"[Amplitude] Page URL\":\"https://www.staging.raise.penomo.com/setupProfile\",\"[Amplitude] Page Title\":\"Raise App | penomo\",\"[Amplitude] Viewport Height\":720,\"[Amplitude] Viewport Width\":1280},\"event_id\":9,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.25 Safari/537.36\"},{\"device_id\":\"31ec8536-4381-4c70-80ec-8008e0815e1b\",\"session_id\":1754573070815,\"time\":1754573086624,\"platform\":\"Web\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"5046f1b2-05d8-4365-a444-cf003888be32\",\"event_type\":\"[Amplitude] Element Changed\",\"event_properties\":{\"[Amplitude] Element ID\":\"companyName\",\"[Amplitude] Element Class\":\"border border-monochrome-10 rounded px-2\",\"[Amplitude] Element Hierarchy\":[{\"tag\":\"input\",\"index\":1,\"indexOfType\":0,\"prevSib\":\"label\",\"id\":\"companyName\",\"classes\":[\"border\",\"border-monochrome-10\",\"rounded\",\"px-2\"],\"attrs\":{\"type\":\"text\"}},{\"tag\":\"div\",\"index\":2,\"indexOfType\":2,\"prevSib\":\"div\",\"classes\":[\"flex\",\"flex-col\",\"gap-2\"]},{\"tag\":\"form\",\"index\":1,\"indexOfType\":0,\"prevSib\":\"h3\",\"classes\":[\"w-full\",\"flex\",\"flex-col\",\"gap-6\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"bg-white\",\"rounded-lg\",\"p-8\",\"w-full\",\"md:w-[50%]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"items-center\",\"justify-center\",\"gap-4\",\"h-[calc(100vh-110px)]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"mb-0\",\"px-4\",\"mx-auto\",\"w-full\",\"pt-0\",\"h-[calc(100vh-64px)]\"]},{\"tag\":\"section\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"w-full\",\"h-full\"]},{\"tag\":\"main\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"lg:flex-row\",\"h-[100%]\",\"mx-auto\",\"relative\"]}],\"[Amplitude] Element Tag\":\"input\",\"[Amplitude] Element Position Left\":360,\"[Amplitude] Element Position Top\":409,\"[Amplitude] Element Parent Label\":\"Let's first set up your profile\",\"[Amplitude] Page URL\":\"https://www.staging.raise.penomo.com/setupProfile\",\"[Amplitude] Page Title\":\"Raise App | penomo\",\"[Amplitude] Viewport Height\":720,\"[Amplitude] Viewport Width\":1280},\"event_id\":10,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.25 Safari/537.36\"},{\"device_id\":\"31ec8536-4381-4c70-80ec-8008e0815e1b\",\"session_id\":1754573070815,\"time\":1754573086625,\"platform\":\"Web\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"dfb839ea-fa19-46d5-b468-4a06390a5415\",\"event_type\":\"[Amplitude] Form Submitted\",\"event_properties\":{\"[Amplitude] Form ID\":\"\",\"[Amplitude] Form Name\":\"\",\"[Amplitude] Form Destination\":\"https://www.staging.raise.penomo.com/setupProfile\"},\"event_id\":11,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.25 Safari/537.36\"},{\"device_id\":\"31ec8536-4381-4c70-80ec-8008e0815e1b\",\"session_id\":1754573070815,\"time\":1754573086626,\"platform\":\"Web\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"440282f3-6515-4f10-a4e5-f0f69fa93a3f\",\"event_type\":\"[Amplitude] Element Clicked\",\"event_properties\":{\"[Amplitude] Element Class\":\"py-2 px-6 flex flex-row items-center cursor-pointer justify-center gap-2  bg-green-500 body-medium text-white min-h-[40px] rounded-[8px]\",\"[Amplitude] Element Hierarchy\":[{\"tag\":\"button\",\"index\":3,\"indexOfType\":0,\"prevSib\":\"div\",\"classes\":[\"py-2\",\"px-6\",\"flex\",\"flex-row\",\"items-center\",\"cursor-pointer\",\"justify-center\",\"gap-2\",\"bg-green-500\",\"body-medium\",\"text-white\",\"min-h-[40px]\",\"rounded-[8px]\"],\"attrs\":{\"type\":\"submit\"}},{\"tag\":\"form\",\"index\":1,\"indexOfType\":0,\"prevSib\":\"h3\",\"classes\":[\"w-full\",\"flex\",\"flex-col\",\"gap-6\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"bg-white\",\"rounded-lg\",\"p-8\",\"w-full\",\"md:w-[50%]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"items-center\",\"justify-center\",\"gap-4\",\"h-[calc(100vh-110px)]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"mb-0\",\"px-4\",\"mx-auto\",\"w-full\",\"pt-0\",\"h-[calc(100vh-64px)]\"]},{\"tag\":\"section\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"w-full\",\"h-full\"]},{\"tag\":\"main\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"lg:flex-row\",\"h-[100%]\",\"mx-auto\",\"relative\"]}],\"[Amplitude] Element Tag\":\"button\",\"[Amplitude] Element Text\":\"Submit\",\"[Amplitude] Element Position Left\":360,\"[Amplitude] Element Position Top\":475,\"[Amplitude] Element Parent Label\":\"Let's first set up your profile\",\"[Amplitude] Page URL\":\"https://www.staging.raise.penomo.com/setupProfile\",\"[Amplitude] Page Title\":\"Raise App | penomo\",\"[Amplitude] Viewport Height\":720,\"[Amplitude] Viewport Width\":1280},\"event_id\":12,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.25 Safari/537.36\"},{\"device_id\":\"31ec8536-4381-4c70-80ec-8008e0815e1b\",\"session_id\":1754573070815,\"time\":1754573086677,\"platform\":\"Web\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"b46ee7fe-9eb6-470a-a059-ea70a820d160\",\"event_type\":\"[Amplitude] Element Changed\",\"event_properties\":{\"[Amplitude] Element ID\":\"firstName\",\"[Amplitude] Element Class\":\"border border-monochrome-10 rounded px-2\",\"[Amplitude] Element Hierarchy\":[{\"tag\":\"input\",\"index\":1,\"indexOfType\":0,\"prevSib\":\"label\",\"id\":\"firstName\",\"classes\":[\"border\",\"border-monochrome-10\",\"rounded\",\"px-2\"],\"attrs\":{\"type\":\"text\"}},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"gap-2\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"grid\",\"grid-cols-1\",\"md:grid-cols-2\",\"gap-4\",\"md:gap-x-2\"]},{\"tag\":\"form\",\"index\":1,\"indexOfType\":0,\"prevSib\":\"h3\",\"classes\":[\"w-full\",\"flex\",\"flex-col\",\"gap-6\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"bg-white\",\"rounded-lg\",\"p-8\",\"w-full\",\"md:w-[50%]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"items-center\",\"justify-center\",\"gap-4\",\"h-[calc(100vh-110px)]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"mb-0\",\"px-4\",\"mx-auto\",\"w-full\",\"pt-0\",\"h-[calc(100vh-64px)]\"]},{\"tag\":\"section\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"w-full\",\"h-full\"]}],\"[Amplitude] Element Tag\":\"input\",\"[Amplitude] Element Position Left\":360,\"[Amplitude] Element Position Top\":187,\"[Amplitude] Element Parent Label\":\"Let's first set up your profile\",\"[Amplitude] Page URL\":\"https://www.staging.raise.penomo.com/setupProfile\",\"[Amplitude] Page Title\":\"Raise App | penomo\",\"[Amplitude] Viewport Height\":720,\"[Amplitude] Viewport Width\":1280},\"event_id\":13,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.25 Safari/537.36\"},{\"device_id\":\"31ec8536-4381-4c70-80ec-8008e0815e1b\",\"session_id\":1754573070815,\"time\":1754573086679,\"platform\":\"Web\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"d09284f1-283a-42d2-a0dd-1cebaf189156\",\"event_type\":\"[Amplitude] Form Started\",\"event_properties\":{\"[Amplitude] Form ID\":\"\",\"[Amplitude] Form Name\":\"\",\"[Amplitude] Form Destination\":\"https://www.staging.raise.penomo.com/setupProfile\"},\"event_id\":14,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.25 Safari/537.36\"},{\"device_id\":\"31ec8536-4381-4c70-80ec-8008e0815e1b\",\"session_id\":1754573070815,\"time\":1754573086723,\"platform\":\"Web\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"68346fb6-87e0-4764-a3a6-8ea45d9e065a\",\"event_type\":\"[Amplitude] Element Changed\",\"event_properties\":{\"[Amplitude] Element ID\":\"lastName\",\"[Amplitude] Element Class\":\"border border-monochrome-10 rounded px-2\",\"[Amplitude] Element Hierarchy\":[{\"tag\":\"input\",\"index\":1,\"indexOfType\":0,\"prevSib\":\"label\",\"id\":\"lastName\",\"classes\":[\"border\",\"border-monochrome-10\",\"rounded\",\"px-2\"],\"attrs\":{\"type\":\"text\"}},{\"tag\":\"div\",\"index\":1,\"indexOfType\":1,\"prevSib\":\"div\",\"classes\":[\"flex\",\"flex-col\",\"gap-2\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"grid\",\"grid-cols-1\",\"md:grid-cols-2\",\"gap-4\",\"md:gap-x-2\"]},{\"tag\":\"form\",\"index\":1,\"indexOfType\":0,\"prevSib\":\"h3\",\"classes\":[\"w-full\",\"flex\",\"flex-col\",\"gap-6\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"bg-white\",\"rounded-lg\",\"p-8\",\"w-full\",\"md:w-[50%]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"items-center\",\"justify-center\",\"gap-4\",\"h-[calc(100vh-110px)]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"mb-0\",\"px-4\",\"mx-auto\",\"w-full\",\"pt-0\",\"h-[calc(100vh-64px)]\"]},{\"tag\":\"section\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"w-full\",\"h-full\"]}],\"[Amplitude] Element Tag\":\"input\",\"[Amplitude] Element Position Left\":644,\"[Amplitude] Element Position Top\":202,\"[Amplitude] Element Parent Label\":\"Let's first set up your profile\",\"[Amplitude] Page URL\":\"https://www.staging.raise.penomo.com/setupProfile\",\"[Amplitude] Page Title\":\"Raise App | penomo\",\"[Amplitude] Viewport Height\":720,\"[Amplitude] Viewport Width\":1280},\"event_id\":15,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.25 Safari/537.36\"},{\"device_id\":\"31ec8536-4381-4c70-80ec-8008e0815e1b\",\"session_id\":1754573070815,\"time\":1754573086725,\"platform\":\"Web\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"ff079517-dd56-4916-86ba-cfb947fa7714\",\"event_type\":\"[Amplitude] Form Submitted\",\"event_properties\":{\"[Amplitude] Form ID\":\"\",\"[Amplitude] Form Name\":\"\",\"[Amplitude] Form Destination\":\"https://www.staging.raise.penomo.com/setupProfile\"},\"event_id\":16,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.25 Safari/537.36\"},{\"device_id\":\"31ec8536-4381-4c70-80ec-8008e0815e1b\",\"session_id\":1754573070815,\"time\":1754573086726,\"platform\":\"Web\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"c72c8a64-e620-4ef4-8ce8-a65a3515be3b\",\"event_type\":\"[Amplitude] Element Clicked\",\"event_properties\":{\"[Amplitude] Element Class\":\"py-2 px-6 flex flex-row items-center cursor-pointer justify-center gap-2  bg-green-500 body-medium text-white min-h-[40px] rounded-[8px]\",\"[Amplitude] Element Hierarchy\":[{\"tag\":\"button\",\"index\":3,\"indexOfType\":0,\"prevSib\":\"div\",\"classes\":[\"py-2\",\"px-6\",\"flex\",\"flex-row\",\"items-center\",\"cursor-pointer\",\"justify-center\",\"gap-2\",\"bg-green-500\",\"body-medium\",\"text-white\",\"min-h-[40px]\",\"rounded-[8px]\"],\"attrs\":{\"type\":\"submit\"}},{\"tag\":\"form\",\"index\":1,\"indexOfType\":0,\"prevSib\":\"h3\",\"classes\":[\"w-full\",\"flex\",\"flex-col\",\"gap-6\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"bg-white\",\"rounded-lg\",\"p-8\",\"w-full\",\"md:w-[50%]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"items-center\",\"justify-center\",\"gap-4\",\"h-[calc(100vh-110px)]\"]},{\"tag\":\"div\",\"index\":0,\"indexOfType\":0,\"classes\":[\"mb-0\",\"px-4\",\"mx-auto\",\"w-full\",\"pt-0\",\"h-[calc(100vh-64px)]\"]},{\"tag\":\"section\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"w-full\",\"h-full\"]},{\"tag\":\"main\",\"index\":0,\"indexOfType\":0,\"classes\":[\"flex\",\"flex-col\",\"lg:flex-row\",\"h-[100%]\",\"mx-auto\",\"relative\"]}],\"[Amplitude] Element Tag\":\"button\",\"[Amplitude] Element Text\":\"Submit\",\"[Amplitude] Element Position Left\":360,\"[Amplitude] Element Position Top\":460,\"[Amplitude] Element Parent Label\":\"Let's first set up your profile\",\"[Amplitude] Page URL\":\"https://www.staging.raise.penomo.com/setupProfile\",\"[Amplitude] Page Title\":\"Raise App | penomo\",\"[Amplitude] Viewport Height\":720,\"[Amplitude] Viewport Width\":1280},\"event_id\":17,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.25 Safari/537.36\"},{\"device_id\":\"31ec8536-4381-4c70-80ec-8008e0815e1b\",\"session_id\":1754573070815,\"time\":1754573086874,\"platform\":\"Web\",\"language\":\"en-US\",\"ip\":\"$remote\",\"insert_id\":\"c9f3aece-40a3-4ba3-943d-4ac5d0f54e15\",\"event_type\":\"[Amplitude] Page Viewed\",\"event_properties\":{\"[Amplitude] Page Domain\":\"www.staging.raise.penomo.com\",\"[Amplitude] Page Location\":\"https://www.staging.raise.penomo.com/dashboard\",\"[Amplitude] Page Path\":\"/dashboard\",\"[Amplitude] Page Title\":\"Raise App | penomo\",\"[Amplitude] Page URL\":\"https://www.staging.raise.penomo.com/dashboard\",\"[Amplitude] Page Counter\":4},\"event_id\":18,\"library\":\"amplitude-ts-script/2.16.1\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7103.25 Safari/537.36\"}]"
-        },
-        {
-          "name": "auth_store",
-          "value": "{\"sessionId\":\"55aac67b59e5be7d8ecaca00b33f16f25c8407456ea97bc07fb0296c2cab5798\"}"
-        },
-        {
-          "name": "loginTime",
-          "value": "1754573086282"
-        },
-        {
-          "name": "authToken",
-          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODk0YTkxY2YyYmJjYzZiMDZmODQ1YmUiLCJ1c2VyRW1haWwiOiJmMHZzbHRlQHNibWNoYmx5Lm1haWxvc2F1ci5uZXQiLCJjb21wYW55SWQiOiI2ODk0YTkxY2YyYmJjYzZiMDZmODQ1YzAiLCJyb2xlIjoiaXNzdWVyIiwianRpIjoiMGJkN2NiMjctMzNiNS00OGE3LThiMzMtYWU3NDBjZmQ2NWZlIiwiaWF0IjoxNzU0NTczMDg0LCJleHAiOjE3NTQ1NzY2ODR9.4FBlEZDFmh9LvIgm2fhZ70uGdeBa1EEcv1p815CQjq8"
-        },
-        {
-          "name": "loglevel:web3auth-logger",
-          "value": "ERROR"
-        },
-        {
-          "name": "EXP_unsent_$default_instance",
-          "value": "[]"
-        },
-        {
           "name": "penomo_cmpy_store",
-          "value": "{\"state\":{\"userData\":{\"isDeleted\":false,\"deletedAt\":null,\"_id\":\"6894a91cf2bbcc6b06f845be\",\"isProfileExisting\":true,\"walletAddress\":\"\",\"emailNotifications\":true,\"investorId\":\"\",\"role\":\"\",\"permissions\":[],\"kycStatus\":\"Not Submitted\",\"statusUpdates\":[],\"personalIdentityDocuments\":[],\"pepHits\":[],\"sanctionHits\":[],\"__v\":0,\"email\":\"f0vslte@sbmchbly.mailosaur.net\",\"firstName\":\"arsen\",\"lastName\":\"autotests\",\"dateOfBirth\":null,\"metamaskWalletAddress\":null,\"middleNames\":\"\",\"position\":\"\",\"companyId\":\"6894a91cf2bbcc6b06f845c0\",\"roleId\":\"67a5b3bc6dac5eba5ff76a4e\",\"countryOfResidence\":null,\"purchasedPnmoTokens\":false,\"totalPrnmoTokens\":0,\"isOnboardingCompleted\":false,\"prnmoTransactions\":[],\"walletDetails\":{\"web3authWalletAddress\":\"0xbab94d61edb820aab6198330ee9224fc6dd035e6\",\"isWalletWhitelisted\":false,\"isWalletWhitelistedBitbond\":false},\"companyDetails\":{\"_id\":\"6894a91cf2bbcc6b06f845c0\",\"members\":[],\"signingCombinations\":[],\"boardMembers\":[],\"kybStatus\":\"Not Submitted\",\"consentManagement\":[],\"documentId\":[],\"isDeleted\":false,\"deletedAt\":null,\"createdAt\":\"2025-08-07T13:24:44.775Z\",\"updatedAt\":\"2025-08-07T13:24:45.379Z\",\"__v\":0,\"companyName\":\"ArsenAutotest\"}},\"companyData\":{\"companyTicker\":\"\",\"members\":[],\"companyName\":\"ArsenAutotest\",\"registrationNumber\":\"\",\"businessAddress\":\"\",\"businessPhone\":\"\",\"industrySector\":\"\",\"ownershipStructure\":\"\",\"businessActivities\":\"\",\"legalType\":\"\",\"registrationDate\":null,\"visitAddress\":\"\",\"postalAddress\":\"\",\"companyStatus\":\"\",\"numberOfEmployeesInterval\":\"\",\"industryCode\":\"\",\"registeredCorporateTaxID\":\"\",\"registeredCorporateVatID\":\"\",\"signingCombinations\":[],\"boardMembers\":[],\"kybStatus\":\"Not Submitted\",\"bankAccountHolderName\":\"\",\"bankName\":\"\",\"bankAccountNumber\":\"\",\"bankSwiftBicCode\":\"\",\"bankIban\":\"\",\"bankDefaultCurrency\":\"\",\"bankTransactionLimits\":\"\",\"privacySettings\":\"\",\"dataSharingPreferences\":\"\",\"consentManagement\":[],\"documentId\":[],\"isDeleted\":false,\"deletedAt\":null,\"_id\":\"6894a91cf2bbcc6b06f845c0\",\"createdAt\":\"2025-08-07T13:24:44.775Z\",\"updatedAt\":\"2025-08-07T13:24:45.379Z\",\"__v\":0}},\"version\":0}"
+          "value": "{\"state\":{\"userData\":{\"isDeleted\":false,\"deletedAt\":null,\"_id\":\"682376804eac6ecab56163ab\",\"isProfileExisting\":true,\"walletAddress\":\"\",\"emailNotifications\":true,\"investorId\":\"\",\"role\":\"\",\"permissions\":[],\"kycStatus\":\"Not Submitted\",\"statusUpdates\":[],\"personalIdentityDocuments\":[],\"pepHits\":[],\"sanctionHits\":[],\"__v\":0,\"email\":\"penomo-at-company@sbmchbly.mailosaur.net\",\"firstName\":\"companyAutotest\",\"lastName\":\"login\",\"dateOfBirth\":null,\"metamaskWalletAddress\":null,\"middleNames\":\"\",\"position\":\"\",\"companyId\":\"682376804eac6ecab56163ad\",\"roleId\":\"67a5b3bc6dac5eba5ff76a4e\",\"countryOfResidence\":null,\"purchasedPnmoTokens\":false,\"totalPrnmoTokens\":0,\"prnmoTransactions\":[],\"walletDetails\":{\"web3authWalletAddress\":\"0x2799de4ffa5dd6890a86267607a99aee80db0da5\",\"isWalletWhitelisted\":false,\"isWalletWhitelistedBitbond\":false},\"companyDetails\":{\"_id\":\"682376804eac6ecab56163ad\",\"members\":[],\"signingCombinations\":[],\"boardMembers\":[],\"kybStatus\":\"Not Submitted\",\"consentManagement\":[],\"documentId\":[],\"isDeleted\":false,\"deletedAt\":null,\"createdAt\":\"2025-05-13T16:42:40.506Z\",\"updatedAt\":\"2025-05-13T16:43:14.023Z\",\"__v\":0,\"companyName\":\"test\"}},\"companyData\":{\"companyTicker\":\"\",\"members\":[],\"companyName\":\"test\",\"registrationNumber\":\"\",\"businessAddress\":\"\",\"businessPhone\":\"\",\"industrySector\":\"\",\"ownershipStructure\":\"\",\"businessActivities\":\"\",\"legalType\":\"\",\"registrationDate\":null,\"visitAddress\":\"\",\"postalAddress\":\"\",\"companyStatus\":\"\",\"numberOfEmployeesInterval\":\"\",\"industryCode\":\"\",\"registeredCorporateTaxID\":\"\",\"registeredCorporateVatID\":\"\",\"signingCombinations\":[],\"boardMembers\":[],\"kybStatus\":\"Not Submitted\",\"bankAccountHolderName\":\"\",\"bankName\":\"\",\"bankAccountNumber\":\"\",\"bankSwiftBicCode\":\"\",\"bankIban\":\"\",\"bankDefaultCurrency\":\"\",\"bankTransactionLimits\":\"\",\"privacySettings\":\"\",\"dataSharingPreferences\":\"\",\"consentManagement\":[],\"documentId\":[],\"isDeleted\":false,\"deletedAt\":null,\"_id\":\"682376804eac6ecab56163ad\",\"createdAt\":\"2025-05-13T16:42:40.506Z\",\"updatedAt\":\"2025-05-13T16:43:14.023Z\",\"__v\":0}},\"version\":0}"
         },
         {
           "name": "EXP_7cc68ca4ee",
-          "value": "{\"web_exp_id\":\"a0c88116-12e4-408f-b7e8-4c1b03588afa\"}"
+          "value": "{\"web_exp_id\":\"a6834492-0177-41d1-846a-06c5ad71767b\"}"
+        },
+        {
+          "name": "AMP_unsent_7cc68ca4ee",
+          "value": "[]"
         },
         {
           "name": "EXP_7cc68ca4ee_DEFAULT_USER_PROVIDER",
-          "value": "{\"first_seen\":\"1754573071.329\"}"
+          "value": "{\"first_seen\":\"1754574452.701\"}"
         },
         {
           "name": "loglevel:SecurePubSub",
@@ -147,11 +127,23 @@
         },
         {
           "name": "web3AuthToken",
-          "value": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlRZT2dnXy01RU9FYmxhWS1WVlJZcVZhREFncHRuZktWNDUzNU1aUEMwdzAifQ.eyJpYXQiOjE3NTQ1NzMwODIsImF1ZCI6IkJJeG9pSDBYSDV6NkJDNGNVYTVlWVpNbGZ5d0hkLVUzZ3BZT1daTzJqaTRHNzVfbXlQamhSYTdGaTJUOWw5QW5sbkVnYnFPeTR6U2h1ZVNieTFGRlU3NCIsIm5vbmNlIjoiMDMyZDdiMGRiZDM4YjU1MzZiM2M3OTY4YTA2NzIyY2VkZjE2NmM4MzEzZjk3ZjZkZjE0OWQ2NzkwMGNkM2E5ZWM5IiwiaXNzIjoiaHR0cHM6Ly9hcGktYXV0aC53ZWIzYXV0aC5pbyIsIndhbGxldHMiOlt7InB1YmxpY19rZXkiOiIwMzY3NjhhMjQ2MWI1NjNhNmZmYzUzNzIzMWFmYTliODY1MzlkN2EzNWMyNWZmOWE2MjNkMzZlZTM1NmM4NTAyN2MiLCJ0eXBlIjoid2ViM2F1dGhfYXBwX2tleSIsImN1cnZlIjoic2VjcDI1NmsxIn0seyJwdWJsaWNfa2V5IjoiMDMyNjk2ZmI3ZTllOGY1MjNmYWUxNzM1MGY4MjM3NTllZGJjMzcxZDU1MDE1MWY4MzEzNTg5ODUxMzY3OGUzMWE1IiwidHlwZSI6IndlYjNhdXRoX3RocmVzaG9sZF9rZXkiLCJjdXJ2ZSI6InNlY3AyNTZrMSJ9XSwiZW1haWwiOiJmMHZzbHRlQHNibWNoYmx5Lm1haWxvc2F1ci5uZXQiLCJuYW1lIjoiZjB2c2x0ZUBzYm1jaGJseS5tYWlsb3NhdXIubmV0IiwidmVyaWZpZXIiOiJub19tb2RhbF9vbmx5X2VtYWlsX3ZlcmlmaWVyIiwiYXV0aENvbm5lY3Rpb25JZCI6Im5vX21vZGFsX29ubHlfZW1haWxfdmVyaWZpZXIiLCJ2ZXJpZmllcklkIjoiZjB2c2x0ZUBzYm1jaGJseS5tYWlsb3NhdXIubmV0IiwidXNlcklkIjoiZjB2c2x0ZUBzYm1jaGJseS5tYWlsb3NhdXIubmV0IiwiYWdncmVnYXRlVmVyaWZpZXIiOiJub19tb2RhbF9vbmx5X2VtYWlsX3ZlcmlmaWVyIiwiZ3JvdXBlZEF1dGhDb25uZWN0aW9uSWQiOiJub19tb2RhbF9vbmx5X2VtYWlsX3ZlcmlmaWVyIiwiZXhwIjoxNzU0NjU5NDgyfQ.xhCZHmpdF4XaMWvTXcPu4kt2TDwjmakHMwjZ1N54tsAQy_GlGftnf-1Jhvw9unZlixz__eCKf3HW3mvN0Uv-XA"
+          "value": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlRZT2dnXy01RU9FYmxhWS1WVlJZcVZhREFncHRuZktWNDUzNU1aUEMwdzAifQ.eyJpYXQiOjE3NTQ1NzQ0NjMsImF1ZCI6IkJJeG9pSDBYSDV6NkJDNGNVYTVlWVpNbGZ5d0hkLVUzZ3BZT1daTzJqaTRHNzVfbXlQamhSYTdGaTJUOWw5QW5sbkVnYnFPeTR6U2h1ZVNieTFGRlU3NCIsIm5vbmNlIjoiMDJlODg5OTU3ODA5NDVjOWE2ZWQ0ZDM0OGQ0OTE4YzUxMzUzYWYxZTI3NTQ1NjNlZmYwYWQ2NjE1NDNhOGI0YThjIiwiaXNzIjoiaHR0cHM6Ly9hcGktYXV0aC53ZWIzYXV0aC5pbyIsIndhbGxldHMiOlt7InB1YmxpY19rZXkiOiIwMzFjYzFhYTNhNDdmNDFmMzU2MWU0MGRmMzcxY2ExMDAzN2Q3YWFkNWM0NTYwOGQ0MmEzZjhiMTdhODIyYmRmMDIiLCJ0eXBlIjoid2ViM2F1dGhfYXBwX2tleSIsImN1cnZlIjoic2VjcDI1NmsxIn0seyJwdWJsaWNfa2V5IjoiMDMxMjgxY2U4YjFjNDk2YjViOTU2ZDFkZGJlYzI2ZTFiN2E1NjdlODA5MmFkNDlkNDlkYjc3NzMyYTAxZTg0ZDEwIiwidHlwZSI6IndlYjNhdXRoX3RocmVzaG9sZF9rZXkiLCJjdXJ2ZSI6InNlY3AyNTZrMSJ9XSwiZW1haWwiOiJwZW5vbW8tYXQtY29tcGFueUBzYm1jaGJseS5tYWlsb3NhdXIubmV0IiwibmFtZSI6InBlbm9tby1hdC1jb21wYW55QHNibWNoYmx5Lm1haWxvc2F1ci5uZXQiLCJ2ZXJpZmllciI6Im5vX21vZGFsX29ubHlfZW1haWxfdmVyaWZpZXIiLCJhdXRoQ29ubmVjdGlvbklkIjoibm9fbW9kYWxfb25seV9lbWFpbF92ZXJpZmllciIsInZlcmlmaWVySWQiOiJwZW5vbW8tYXQtY29tcGFueUBzYm1jaGJseS5tYWlsb3NhdXIubmV0IiwidXNlcklkIjoicGVub21vLWF0LWNvbXBhbnlAc2JtY2hibHkubWFpbG9zYXVyLm5ldCIsImFnZ3JlZ2F0ZVZlcmlmaWVyIjoibm9fbW9kYWxfb25seV9lbWFpbF92ZXJpZmllciIsImdyb3VwZWRBdXRoQ29ubmVjdGlvbklkIjoibm9fbW9kYWxfb25seV9lbWFpbF92ZXJpZmllciIsImV4cCI6MTc1NDY2MDg2M30.Bms6O7vsvMPSMSjKEIda4QV6ceSsDt9cduvGSlOZeyAiRTzQbFktarW8zuL8CcdBx5j5cAXEPHJAKak6ON_hyw"
+        },
+        {
+          "name": "auth_store",
+          "value": "{\"sessionId\":\"dfda060efc6e2fae9b5d3955fd22d7fc9caf3334257bc9a7331e871d9e3c1310\"}"
         },
         {
           "name": "Web3Auth-cachedAdapter",
           "value": "auth"
+        },
+        {
+          "name": "loginTime",
+          "value": "1754574467385"
+        },
+        {
+          "name": "authToken",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODIzNzY4MDRlYWM2ZWNhYjU2MTYzYWIiLCJ1c2VyRW1haWwiOiJwZW5vbW8tYXQtY29tcGFueUBzYm1jaGJseS5tYWlsb3NhdXIubmV0IiwiY29tcGFueUlkIjoiNjgyMzc2ODA0ZWFjNmVjYWI1NjE2M2FkIiwicm9sZSI6Imlzc3VlciIsImp0aSI6ImJkZTU4NjQwLTMxNzEtNGM2YS05MDVlLTA1MzdkNGY3OGEwNiIsImlhdCI6MTc1NDU3NDQ2NSwiZXhwIjoxNzU0NTc4MDY1fQ.F0d7s5RmS4zN-uwrkbOdBvooFRFh8fkVsmurkc6jwUM"
         },
         {
           "name": "loglevel:auth",
@@ -160,6 +152,14 @@
         {
           "name": "loglevel:http-helpers",
           "value": "INFO"
+        },
+        {
+          "name": "loglevel:web3auth-logger",
+          "value": "ERROR"
+        },
+        {
+          "name": "EXP_unsent_$default_instance",
+          "value": "[]"
         }
       ]
     },
