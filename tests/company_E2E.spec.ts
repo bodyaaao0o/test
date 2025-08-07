@@ -5,7 +5,7 @@ import { env, cred } from '../support/data';
 
 const { stageCompanyProjects, stageCompanySettings, stageCompanyTransaction } = env;
 
-const { changed_name, changed_lastName, position, companyTicker } = cred;
+const { changed_name, changed_lastName, position } = cred;
 
 test.describe("E2E company flow", () => {
     let pm: PageManager;

@@ -54,18 +54,12 @@ jobs:
         # working-directory: ./company-portal-tests
         run: npx playwright test --project="Mobile Safari"
 
-      - name: Run Playwright tests in Chromium and save output
-        id: run_tests
-        run: |
-          npx playwright test --project=chromium > result.log 2>&1
-          echo "exit_code=$?" >> result.env
-        shell: bash
 
       - name: Send Slack notification on test failure
         if: failure()
         run: |
           curl -X POST -H 'Content-type: application/json' \
-            --data '{"text":"Playwright tests failed on staging for Company App! Check the Allure report."}' \
+            --data '{"text":"🚨 Playwright tests failed on *test/company_portal*! Check the Allure report."}' \
             ${{ secrets.SLACK_WEBHOOK_URL }}
 
       - name: Install Allure CLI

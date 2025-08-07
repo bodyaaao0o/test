@@ -160,15 +160,15 @@ export class Settings {
     };
 
     getErrorMessage(): Locator {
-        return this.page.locator('.go3958317564');
+        return this.page.locator('.go2072408551');
     };
 
     getCompanyErrorMessage(): Locator {
-        return this.page.locator('.go3958317564', {hasText: "Please correct the errors before submitting."});
+        return this.page.locator('.go2072408551', {hasText: "Please correct the errors before submitting."});
     };
 
     getSuccessCompanyUpdateMessage(): Locator {
-        return this.page.locator('.go3958317564', {hasText: "Company Details Updated Successfully"});
+        return this.page.locator('.go2072408551', {hasText: "Company Details Updated Successfully"});
     };
 
 
