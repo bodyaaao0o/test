@@ -1,0 +1,92 @@
+name: Run Playwright integration tests
+
+on:
+  pull_request:
+    branches:
+      - test/integration
+  push:
+    branches:
+      - test/integration
+
+jobs:
+  test:
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # - name: Change directory to test project
+      #   working-directory: ./invest-integration-tests
+      #   run: echo "Now in test project folder"
+
+      - name: Cache node_modules
+        uses: actions/cache@v4
+        with:
+          path: ./invest-integration-tests/node_modules
+          key: invest-integration-tests-${{ hashFiles('invest-integration-tests/package-lock.json') }}
+          restore-keys: |
+            company-app-integration-
+
+      - name: Install dependencies
+        # working-directory: ./invest-integration-tests
+        run: npm ci
+
+      - name: Install Playwright browsers
+        # working-directory: ./invest-integration-tests
+        run: npx playwright install --with-deps
+
+      - name: Clear Playwright test results
+        # working-directory: ./invest-integration-tests
+        run: rm -rf test-results
+
+      - name: Run Playwright tests in Chromium
+        # working-directory: ./invest-integration-tests
+        run: npx playwright test --project=chromium
+
+      - name: Install Allure CLI
+        if: always()
+        run: npm install -g allure-commandline
+
+      - name: Generate Allure Report
+        if: failure()
+        # working-directory: ./invest-integration-tests
+        run: npx allure generate allure-results -o allure-report --clean
+
+      - name: Upload Allure report
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: /allure-report
+          retention-days: 3
+
+      - name: Upload Allure raw results
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: /allure-results
+          retention-days: 3
+
+      - name: Extract failure reason from Allure
+        if: failure()
+        run: |
+          echo "Getting failure reason from Allure results..."
+          REASON=$(jq -r 'select(.status=="failed") | .statusDetails.message // .statusDetails.trace' invest-integration-tests/allure-results/*.json | head -n 1 | sed 's/"/\\"/g' | sed ':a;N;$!ba;s/\n/\\n/g')
+          echo "REASON=$REASON" >> $GITHUB_ENV
+
+      - name: Send Slack notification on test failure
+        if: failure()
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+            --data "{
+              \"text\": \"*Playwright tests failed* on *${{ github.ref_name }}*\\n*Reason:* \`\`\`${{ env.REASON }}\`\`\`\\n <https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|View run>\"
+            }" \
+            ${{ secrets.SLACK_WEBHOOK_URL }}
