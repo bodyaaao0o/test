@@ -122,7 +122,8 @@ test.describe("Login as company", () => {
         await pm.profile().getLastNameInput().fill(valid_surename);
         await pm.profile().getSubmitButton().click();
         await page.waitForLoadState();
-        await expect(page).toHaveURL(stageCompanyDashboard)
+        await expect(page).toHaveURL(stageCompanyDashboard);
+        await context.storageState({ path: 'playwright/.auth/company_login.json' })
     });
 
     test("Log in on company page", async ({ context, page }, testInfo) => {

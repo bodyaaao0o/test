@@ -46,13 +46,21 @@ jobs:
         # working-directory: ./company-portal-tests
         run: rm -rf test-results
 
+      - name: Run Login tests and save session
+        run: npx playwright test tests/company_login.spec.ts --project=chromium
+
       - name: Run Playwright tests in Chromium
         # working-directory: ./company-portal-tests
-        run: npx playwright test --project=chromium
+        run: npx playwright test tests/company_E2E.spec.ts --project=chromium
 
       - name: Run Playwright tests in Mobile
         # working-directory: ./company-portal-tests
-        run: npx playwright test --project="Mobile Safari"
+        run: npx playwright test tests/company_login.spec.ts --project="Mobile Safari"
+      
+      
+      - name: Run Playwright tests in Mobile
+        # working-directory: ./company-portal-tests
+        run: npx playwright test tests/company_E2E.spec.ts --project="Mobile Safari"
 
 
       - name: Send Slack notification on test failure

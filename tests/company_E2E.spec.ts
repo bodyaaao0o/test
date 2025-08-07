@@ -1,30 +1,21 @@
 import { test, expect, Page, BrowserContext } from '@playwright/test'
 import { checkVisibility, PageManager } from '../support/PageObject/pageManager'
-import { companyLogin } from '../support/login_as_company';
 import { env, cred } from '../support/data';
 
-const { stageCompanyProjects, stageCompanySettings, stageCompanyTransaction } = env;
+const { stageCompanyProjects, stageCompanySettings, stageCompanyTransaction, stageCompanyUrl } = env;
 
 const { changed_name, changed_lastName, position } = cred;
+
+test.use({ storageState: 'playwright/.auth/company_login.json' });
 
 test.describe("E2E company flow", () => {
     let pm: PageManager;
     let page: Page;
     let context: BrowserContext;
-
-    test.beforeAll(async ({ browser }) => {
-        context = await browser.newContext();
-        page = await context.newPage();
+        
+    test("E2E - company check visibility", async ({page}, testInfo) => {
         pm = new PageManager(page);
-
-        await companyLogin(page, context, pm);
-    });
-
-    test.afterAll(async () => {
-        await context.close();
-    });
-
-    test("E2E - company check visibility", async ({ }, testInfo) => {
+        await page.goto(stageCompanyUrl);
         const isMobile = testInfo.project.use.isMobile;
         //Dashboard
         await checkVisibility([
