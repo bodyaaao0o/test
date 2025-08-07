@@ -3,10 +3,10 @@ name: Run Playwright E2E tests for CA
 on:
   pull_request:
     branches:
-      - staging
+      - test/company_portal
   push:
     branches:
-      - staging
+      - test/company_portal
 
 jobs:
   test:
@@ -22,9 +22,9 @@ jobs:
         with:
           node-version: 20
 
-      - name: Change directory to test project
-        working-directory: ./company-portal-tests
-        run: echo "Now in test project folder"
+      # - name: Change directory to test project
+      #   working-directory: ./company-portal-tests
+      #   run: echo "Now in test project folder"
 
       - name: Cache node_modules
         uses: actions/cache@v4
@@ -35,37 +35,38 @@ jobs:
             company-portal-
 
       - name: Install dependencies
-        working-directory: ./company-portal-tests
+        # working-directory: ./company-portal-tests
         run: npm ci
 
       - name: Install Playwright browsers
-        working-directory: ./company-portal-tests
+        # working-directory: ./company-portal-tests
         run: npx playwright install --with-deps
 
       - name: Clear Playwright test results
-        working-directory: ./company-portal-tests
+        # working-directory: ./company-portal-tests
         run: rm -rf test-results
 
       - name: Run Playwright tests in Chromium
-        working-directory: ./company-portal-tests
+        # working-directory: ./company-portal-tests
         run: npx playwright test --project=chromium
 
-      # - name: Run Playwright tests in Chromium and save output
-      #   id: run_tests
-      #   run: |
-      #     npx playwright test --project=chromium > result.log 2>&1
-      #     echo "exit_code=$?" >> result.env
-      #   shell: bash
+      - name: Run Playwright tests in Mobile
+        # working-directory: ./company-portal-tests
+        run: npx playwright test --project="Mobile Safari"
 
-      # - name: Run Playwright tests in Chromium
-      #   run: npx playwright test --project=chromium
+      - name: Run Playwright tests in Chromium and save output
+        id: run_tests
+        run: |
+          npx playwright test --project=chromium > result.log 2>&1
+          echo "exit_code=$?" >> result.env
+        shell: bash
 
-      # - name: Send Slack notification on test failure
-      #   if: failure()  # тільки коли тести фейляться
-      #   run: |
-      #     curl -X POST -H 'Content-type: application/json' \
-      #       --data '{"text":"Playwright tests failed on staging for Company App! Check the Allure report."}' \
-      #       ${{ secrets.SLACK_WEBHOOK_URL }}
+      - name: Send Slack notification on test failure
+        if: failure()
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+            --data '{"text":"Playwright tests failed on staging for Company App! Check the Allure report."}' \
+            ${{ secrets.SLACK_WEBHOOK_URL }}
 
       - name: Install Allure CLI
         if: always()
@@ -73,7 +74,7 @@ jobs:
 
       - name: Generate Allure Report
         if: failure()
-        working-directory: ./company-portal-tests
+        # working-directory: ./company-portal-tests
         run: npx allure generate allure-results -o allure-report --clean
 
       - name: Upload Allure report
@@ -81,7 +82,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: allure-report
-          path: company-portal-tests/allure-report
+          path: allure-report
           retention-days: 3
 
       - name: Upload Allure raw results
@@ -89,5 +90,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: allure-results
-          path: company-portal-tests/allure-results
+          path: allure-results
           retention-days: 3
