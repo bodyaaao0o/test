@@ -55,7 +55,7 @@ jobs:
 
       - name: Run Playwright tests in Mobile
         # working-directory: ./company-portal-tests
-        run: npx playwright test tests/company_login.spec.ts --project="Mobile Safari"
+        run: npx playwright test tests/company_login.spec.ts --project="Mobile Safari" -g "Register on company page"
       
       
       - name: Run Playwright tests in Mobile
