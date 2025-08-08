@@ -317,6 +317,6 @@ test.describe("E2E company flow", () => {
 
         await pm.settingsTo().getSaveButton().click();
 
-        //await expect(pm.settingsTo().getSuccessCompanyUpdateMessage()).toBeVisible({ timeout: 10000 });
+        await expect(pm.settingsTo().getSuccessCompanyUpdateMessage()).toBeVisible({ timeout: 10000 });
     })
 })
