@@ -1,0 +1,138 @@
+name: Playwright Tests
+on:
+  push:
+    branches: [ fsdfsdfsd ]
+  # pull_request:
+  #   branches: [ main ]
+jobs:
+  setup:
+    name: Cache only (no install)
+    runs-on: ubuntu-latest
+    outputs:
+      cache-key: ${{ steps.cache-deps.outputs.cache-primary-key }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Cache node_modules
+        id: cache-deps
+        uses: actions/cache@v4
+        with:
+          path: |
+            ./node_modules
+            ./penomo_tests/node_modules
+            ./penomo_accredited/node_modules
+          key: penomo-tests-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            penomo-tests-
+
+  AI-accredited-tests:
+    name: Run Desktop Tests
+    runs-on: ubuntu-latest
+    needs: setup
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: ./penomo_accredited
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Restore node_modules from cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ./node_modules
+            ./penomo_accredited/node_modules
+          key: penomo-tests-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            penomo-tests-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+
+      - name: Clean previous results
+        run: rm -rf ./allure-results ./test-results
+
+      - name: Run auth tests (Desktop)
+        run: npx playwright test ./auth --project=chromium
+        #continue-on-error: true
+
+      - name: Run E2E tests (Desktop)
+        run: npx playwright test ./E2E --project=chromium
+        #continue-on-error: true
+
+      - name: Debug test results structure
+        if: always()
+        run: |
+          echo "=== Debugging test results structure ==="
+          echo "Current directory structure:"
+          find . -maxdepth 3 -type d -name "*result*" -o -name "*report*" | head -20
+          
+          echo "=== Looking for image/trace files ==="
+          find . -path "./node_modules" -prune -o -type f \( -name '*.png' -o -name '*.trace' \) -print | head -10
+          
+          echo "=== Allure results content before copy ==="
+          if [ -d "./allure-results" ]; then
+            echo "Allure results directory exists"
+            ls -la ./allure-results/
+          else
+            echo "No allure-results directory found"
+          fi
+
+      - name: Copy screenshots/traces to Allure results (Desktop)
+        if: always()
+        run: |
+          echo "Looking for artifacts to copy..."
+          mkdir -p ./allure-results
+          
+          if [ -d "test-results" ]; then
+            echo "Copying from test-results directory..."
+            find test-results -type f \( -name '*.png' -o -name '*.zip' -o -name '*.trace' \) -exec cp -v {} ./allure-results/ \; 2>/dev/null || true
+          fi
+          
+          if [ -d "playwright-report" ]; then
+            echo "Copying from playwright-report directory..."
+            find playwright-report -type f \( -name '*.png' -o -name '*.zip' \) -exec cp -v {} ./allure-results/ \; 2>/dev/null || true
+          fi
+          
+          find . -path "./node_modules" -prune -o -path "./.git" -prune -o -type f \( -name '*.png' -o -name '*.zip' -o -name '*.trace' \) -print -exec cp -v {} ./allure-results/ \; 2>/dev/null || true
+          
+          echo "Final artifacts in allure-results:"
+          ls -lah ./allure-results/ || echo "No artifacts found."
+          
+          echo "=== Final verification ==="
+          echo "Allure results directory size:"
+          du -sh ./allure-results/ 2>/dev/null || echo "Directory not found"
+          
+          echo "Files by type:"
+          find ./allure-results -name "*.png" | wc -l | xargs echo "PNG files:"
+          find ./allure-results -name "*.json" | wc -l | xargs echo "JSON files:"
+          find ./allure-results -name "*.trace" | wc -l | xargs echo "Trace files:"
+          
+          chmod -R 755 ./allure-results/ 2>/dev/null || true
+
+      - name: Upload Allure raw results (Desktop)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results-desktop
+          path: ./allure-results
+          retention-days: 3
+          if-no-files-found: warn
+

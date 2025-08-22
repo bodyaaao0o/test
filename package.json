@@ -1,0 +1,39 @@
+{
+  "name": "penomo_playwright_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "allure:generate": "allure generate ./allure-results --clean -o ./allure-report",
+    "allure:open": "allure open ./allure-report",
+    "test:allure": "npm run test && npm run allure:generate && npm run allure:open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^22.15.3",
+    "@types/node-fetch": "^2.6.13",
+    "allure-playwright": "^3.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@noble/secp256k1": "^2.2.3",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "ethereum-cryptography": "^3.2.0",
+    "ethers": "^6.14.3",
+    "google-auth-library": "^9.15.1",
+    "googleapis": "^148.0.0",
+    "jimp": "^0.16.1",
+    "mailosaur": "^8.8.1",
+    "mailslurp-client": "^15.21.0",
+    "playwright": "^1.52.0",
+    "qrcode-reader": "^1.0.4"
+  },
+  "type": "module"
+}
